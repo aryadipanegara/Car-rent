@@ -1,0 +1,142 @@
+CRITICAL - 2023-05-28 05:05:05 --> Invalid file: "about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('about', [], true)
+ 3 APPPATH\Controllers\page.php(10): view('about', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->about()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab9\\public\\index.php')
+CRITICAL - 2023-05-28 05:05:06 --> Invalid file: "about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('about', [], true)
+ 3 APPPATH\Controllers\page.php(10): view('about', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->about()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab9\\public\\index.php')
+CRITICAL - 2023-05-28 05:05:47 --> Invalid file: "about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('about', [], true)
+ 3 APPPATH\Controllers\page.php(10): view('about', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->about()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab9\\public\\index.php')
+CRITICAL - 2023-05-28 05:19:45 --> Invalid file: "template/admin_header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/admin_header.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('template/admin_header', null, true)
+ 3 APPPATH\Views\artikel\admin_index.php(1): CodeIgniter\View\View->include('template/admin_header')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\lab9\\app\\Views\\artikel\\admin_index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('artikel/admin_index', [], true)
+ 7 APPPATH\Controllers\Artikel.php(36): view('artikel/admin_index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Artikel->admin_index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab9\\public\\index.php')
+CRITICAL - 2023-05-28 05:22:36 --> Invalid file: "template/admin_header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/admin_header.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('template/admin_header', null, true)
+ 3 APPPATH\Views\artikel\admin_index.php(1): CodeIgniter\View\View->include('template/admin_header')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\lab9\\app\\Views\\artikel\\admin_index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('artikel/admin_index', [], true)
+ 7 APPPATH\Controllers\Artikel.php(36): view('artikel/admin_index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Artikel->admin_index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab9\\public\\index.php')
+CRITICAL - 2023-05-28 05:22:37 --> Invalid file: "template/admin_header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/admin_header.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('template/admin_header', null, true)
+ 3 APPPATH\Views\artikel\admin_index.php(1): CodeIgniter\View\View->include('template/admin_header')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\lab9\\app\\Views\\artikel\\admin_index.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('artikel/admin_index', [], true)
+ 7 APPPATH\Controllers\Artikel.php(36): view('artikel/admin_index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Artikel->admin_index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab9\\public\\index.php')
+CRITICAL - 2023-05-28 05:35:58 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Artikel.php on line 24.
+ 1 APPPATH\Controllers\Artikel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\lab9\\app\\Controllers\\Artikel.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Artikel->view('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab9\\public\\index.php')
+CRITICAL - 2023-05-28 05:59:11 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Artikel.php on line 24.
+ 1 APPPATH\Controllers\Artikel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\lab9\\ci4\\app\\Controllers\\Artikel.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Artikel->view('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab9\\ci4\\public\\index.php')
+CRITICAL - 2023-05-28 05:59:29 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Artikel.php on line 24.
+ 1 APPPATH\Controllers\Artikel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\lab9\\ci4\\app\\Controllers\\Artikel.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Artikel->view('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab9\\ci4\\public\\index.php')
+CRITICAL - 2023-05-28 06:00:59 --> Invalid file: "artikel/admin_index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/admin_index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('artikel/admin_index', [], true)
+ 3 APPPATH\Controllers\Artikel.php(36): view('artikel/admin_index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Artikel->admin_index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab9\\ci4\\public\\index.php')
+CRITICAL - 2023-05-28 06:01:24 --> Invalid file: "artikel/admin_index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/admin_index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('artikel/admin_index', [], true)
+ 3 APPPATH\Controllers\Artikel.php(36): view('artikel/admin_index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Artikel->admin_index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab9\\ci4\\public\\index.php')
+CRITICAL - 2023-05-28 06:04:33 --> Invalid file: "artikel/admin_index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/admin_index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('artikel/admin_index', [], true)
+ 3 APPPATH\Controllers\Artikel.php(36): view('artikel/admin_index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Artikel->admin_index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab9\\ci4\\public\\index.php')
+CRITICAL - 2023-05-28 06:04:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Artikel.php on line 24.
+ 1 APPPATH\Controllers\Artikel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\lab9\\ci4\\app\\Controllers\\Artikel.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Artikel->view('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab9\\ci4\\public\\index.php')
+CRITICAL - 2023-05-28 06:06:40 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Artikel.php on line 24.
+ 1 APPPATH\Controllers\Artikel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\lab9\\ci4\\app\\Controllers\\Artikel.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Artikel->view('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab9\\ci4\\public\\index.php')

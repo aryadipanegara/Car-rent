@@ -1,0 +1,173 @@
+CRITICAL - 2023-06-17 08:02:06 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-17 08:11:02 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-17 08:14:47 --> syntax error, unexpected token ")"
+in APPPATH\Controllers\Pricelist.php on line 51.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('pricelist')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('pricelist')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('pricelist')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-17 08:17:18 --> Invalid file: "price_list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('price_list.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('price_list', [], true)
+ 3 APPPATH\Controllers\Pricelist.php(13): view('price_list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PriceList->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceList))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-17 08:18:39 --> Undefined array key "product_name"
+in APPPATH\Views\price_list.php on line 22.
+ 1 APPPATH\Views\price_list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\mobil_rental\\app\\Views\\price_list.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mobil_rental\\app\\Views\\price_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('price_list', [], true)
+ 5 APPPATH\Controllers\Pricelist.php(13): view('price_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PriceList->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceList))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-17 08:19:41 --> Undefined array key "tabel_mobil"
+in APPPATH\Views\price_list.php on line 22.
+ 1 APPPATH\Views\price_list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tabel_mobil"', 'C:\\xampp\\htdocs\\mobil_rental\\app\\Views\\price_list.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mobil_rental\\app\\Views\\price_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('price_list', [], true)
+ 5 APPPATH\Controllers\Pricelist.php(13): view('price_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PriceList->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceList))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-17 08:21:00 --> Undefined array key "tabel_merk"
+in APPPATH\Views\price_list.php on line 22.
+ 1 APPPATH\Views\price_list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tabel_merk"', 'C:\\xampp\\htdocs\\mobil_rental\\app\\Views\\price_list.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mobil_rental\\app\\Views\\price_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('price_list', [], true)
+ 5 APPPATH\Controllers\Pricelist.php(13): view('price_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PriceList->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceList))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-17 08:21:26 --> Call to undefined function tabel_merk()
+in APPPATH\Views\price_list.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('price_list', [], true)
+ 4 APPPATH\Controllers\Pricelist.php(13): view('price_list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PriceList->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PriceList))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-17 08:26:10 --> Undefined variable $products
+in APPPATH\Views\price_list.php on line 19.
+ 1 APPPATH\Views\price_list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mobil_rental\\app\\Views\\price_list.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mobil_rental\\app\\Views\\price_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('price_list', [], true)
+ 5 APPPATH\Controllers\Pricelist.php(9): view('price_list')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pricelist->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pricelist))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-17 08:27:31 --> Undefined variable $products
+in APPPATH\Views\price_list.php on line 19.
+ 1 APPPATH\Views\price_list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mobil_rental\\app\\Views\\price_list.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mobil_rental\\app\\Views\\price_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('price_list', [], true)
+ 5 APPPATH\Controllers\Pricelist.php(9): view('price_list')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pricelist->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pricelist))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-17 08:28:16 --> Undefined variable $products
+in APPPATH\Views\price_list.php on line 19.
+ 1 APPPATH\Views\price_list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mobil_rental\\app\\Views\\price_list.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mobil_rental\\app\\Views\\price_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('price_list', [], true)
+ 5 APPPATH\Controllers\Pricelist.php(9): view('price_list')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pricelist->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pricelist))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-17 08:29:24 --> Undefined variable $products
+in APPPATH\Views\price_list.php on line 19.
+ 1 APPPATH\Views\price_list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mobil_rental\\app\\Views\\price_list.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mobil_rental\\app\\Views\\price_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('price_list', [], true)
+ 5 APPPATH\Controllers\Pricelist.php(9): view('price_list')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pricelist->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pricelist))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-17 08:29:44 --> Undefined variable $products
+in APPPATH\Views\price_list.php on line 19.
+ 1 APPPATH\Views\price_list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mobil_rental\\app\\Views\\price_list.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mobil_rental\\app\\Views\\price_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('price_list', [], true)
+ 5 APPPATH\Controllers\Pricelist.php(9): view('price_list')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pricelist->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pricelist))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-17 08:30:36 --> Undefined variable $details
+in APPPATH\Views\price_list.php on line 19.
+ 1 APPPATH\Views\price_list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $details', 'C:\\xampp\\htdocs\\mobil_rental\\app\\Views\\price_list.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\mobil_rental\\app\\Views\\price_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('price_list', [], true)
+ 5 APPPATH\Controllers\Pricelist.php(9): view('price_list')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pricelist->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pricelist))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-17 08:52:23 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-17 08:54:15 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-17 08:56:50 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')

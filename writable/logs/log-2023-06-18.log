@@ -1,0 +1,495 @@
+ERROR - 2023-06-18 11:05:55 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_rentalmobil', 3306, '', 0)
+#1 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\mobil_rental\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mobil_rental\app\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mobil_rental\app\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+#6 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(934): App\Controllers\Product->index()
+#7 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\mobil_rental\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\mobil_rental\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\mobil_rental\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\mobil_rental\app\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\mobil_rental\app\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+#5 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(934): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mobil_rental\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mobil_rental\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-18 11:05:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tabel_mobil`
+JOIN `tabel_merk` ON `tabel_mobil`.`mobil_id_merk` = `tabel_merk`.`merk_id`
+JOIN `tabel_jenis` ON `tabel_mobil`.`mobil_id_jenis` = `tabel_jenis`.`jenis_id`', [], false)
+ 3 APPPATH\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+ERROR - 2023-06-18 11:06:09 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_rentalmobil', 3306, '', 0)
+#1 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\mobil_rental\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mobil_rental\app\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mobil_rental\app\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+#6 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(934): App\Controllers\Product->index()
+#7 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\mobil_rental\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\mobil_rental\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\mobil_rental\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\mobil_rental\app\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\mobil_rental\app\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+#5 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(934): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mobil_rental\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mobil_rental\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-18 11:06:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tabel_mobil`
+JOIN `tabel_merk` ON `tabel_mobil`.`mobil_id_merk` = `tabel_merk`.`merk_id`
+JOIN `tabel_jenis` ON `tabel_mobil`.`mobil_id_jenis` = `tabel_jenis`.`jenis_id`', [], false)
+ 3 APPPATH\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+ERROR - 2023-06-18 11:06:37 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_rentalmobil', 3306, '', 0)
+#1 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\mobil_rental\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mobil_rental\app\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mobil_rental\app\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+#6 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(934): App\Controllers\Product->index()
+#7 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\mobil_rental\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\mobil_rental\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\mobil_rental\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\mobil_rental\app\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\mobil_rental\app\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+#5 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(934): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mobil_rental\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mobil_rental\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-18 11:06:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tabel_mobil`
+JOIN `tabel_merk` ON `tabel_mobil`.`mobil_id_merk` = `tabel_merk`.`merk_id`
+JOIN `tabel_jenis` ON `tabel_mobil`.`mobil_id_jenis` = `tabel_jenis`.`jenis_id`', [], false)
+ 3 APPPATH\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+ERROR - 2023-06-18 11:07:12 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_rentalmobil', 3306, '', 0)
+#1 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\mobil_rental\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mobil_rental\app\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mobil_rental\app\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+#6 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(934): App\Controllers\Product->index()
+#7 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\mobil_rental\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\mobil_rental\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\mobil_rental\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\mobil_rental\app\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\mobil_rental\app\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+#5 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(934): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mobil_rental\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mobil_rental\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-18 11:07:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tabel_mobil`
+JOIN `tabel_merk` ON `tabel_mobil`.`mobil_id_merk` = `tabel_merk`.`merk_id`
+JOIN `tabel_jenis` ON `tabel_mobil`.`mobil_id_jenis` = `tabel_jenis`.`jenis_id`', [], false)
+ 3 APPPATH\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+ERROR - 2023-06-18 11:07:16 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_rentalmobil', 3306, '', 0)
+#1 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\mobil_rental\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mobil_rental\app\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mobil_rental\app\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+#6 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(934): App\Controllers\Product->index()
+#7 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\mobil_rental\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\mobil_rental\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\mobil_rental\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\mobil_rental\app\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\mobil_rental\app\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+#5 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(934): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mobil_rental\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mobil_rental\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-18 11:07:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tabel_mobil`
+JOIN `tabel_merk` ON `tabel_mobil`.`mobil_id_merk` = `tabel_merk`.`merk_id`
+JOIN `tabel_jenis` ON `tabel_mobil`.`mobil_id_jenis` = `tabel_jenis`.`jenis_id`', [], false)
+ 3 APPPATH\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+ERROR - 2023-06-18 11:07:44 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_rentalmobil', 3306, '', 0)
+#1 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\mobil_rental\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mobil_rental\app\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mobil_rental\app\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+#6 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(934): App\Controllers\Product->index()
+#7 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\mobil_rental\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\mobil_rental\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\mobil_rental\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\mobil_rental\app\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\mobil_rental\app\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+#5 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(934): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mobil_rental\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mobil_rental\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-18 11:07:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tabel_mobil`
+JOIN `tabel_merk` ON `tabel_mobil`.`mobil_id_merk` = `tabel_merk`.`merk_id`
+JOIN `tabel_jenis` ON `tabel_mobil`.`mobil_id_jenis` = `tabel_jenis`.`jenis_id`', [], false)
+ 3 APPPATH\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+ERROR - 2023-06-18 11:08:02 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_rentalmobil', 3306, '', 0)
+#1 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\mobil_rental\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mobil_rental\app\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mobil_rental\app\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+#6 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(934): App\Controllers\Product->index()
+#7 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\mobil_rental\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\mobil_rental\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\mobil_rental\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\mobil_rental\app\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\mobil_rental\app\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+#5 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(934): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mobil_rental\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mobil_rental\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-18 11:08:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tabel_mobil`
+JOIN `tabel_merk` ON `tabel_mobil`.`mobil_id_merk` = `tabel_merk`.`merk_id`
+JOIN `tabel_jenis` ON `tabel_mobil`.`mobil_id_jenis` = `tabel_jenis`.`jenis_id`', [], false)
+ 3 APPPATH\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+ERROR - 2023-06-18 11:09:29 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_rentalmobil', 3306, '', 0)
+#1 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\mobil_rental\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\mobil_rental\app\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\mobil_rental\app\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+#6 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(934): App\Controllers\Product->index()
+#7 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\mobil_rental\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\mobil_rental\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\mobil_rental\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\mobil_rental\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\mobil_rental\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\mobil_rental\app\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\mobil_rental\app\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+#5 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(934): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mobil_rental\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mobil_rental\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-18 11:09:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tabel_mobil`
+JOIN `tabel_merk` ON `tabel_mobil`.`mobil_id_merk` = `tabel_merk`.`merk_id`
+JOIN `tabel_jenis` ON `tabel_mobil`.`mobil_id_jenis` = `tabel_jenis`.`jenis_id`', [], false)
+ 3 APPPATH\Models\Product_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:16:08 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:16:16 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:22:25 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:22:29 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:22:47 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:24:38 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:28:14 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:35:14 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:35:27 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:36:43 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:41:01 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:41:47 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:46:17 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 304.
+ 1 SYSTEMPATH\Filters\Filters.php(304): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:46:24 --> Call to undefined method CodeIgniter\Filters\Filters::getFiltersClass()
+in SYSTEMPATH\View\View.php on line 239.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/main', [], true)
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_detail', [], true)
+ 3 APPPATH\Controllers\Product.php(21): view('v_detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:46:24 --> Call to undefined method CodeIgniter\Filters\Filters::getFiltersClass()
+in SYSTEMPATH\View\View.php on line 239.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/main', [], true)
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_product', [], true)
+ 3 APPPATH\Controllers\Product.php(14): view('v_product', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:46:25 --> Call to undefined method CodeIgniter\Filters\Filters::getFiltersClass()
+in SYSTEMPATH\View\View.php on line 239.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/main', [], true)
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_login', [], true)
+ 3 APPPATH\Controllers\Login.php(9): view('v_login')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:46:28 --> Call to undefined method CodeIgniter\Filters\Filters::getFiltersClass()
+in SYSTEMPATH\View\View.php on line 239.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/main', [], true)
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_product', [], true)
+ 3 APPPATH\Controllers\Product.php(14): view('v_product', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:46:29 --> Call to undefined method CodeIgniter\Filters\Filters::getFiltersClass()
+in SYSTEMPATH\View\View.php on line 239.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/main', [], true)
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_detail', [], true)
+ 3 APPPATH\Controllers\Product.php(21): view('v_detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-18 11:46:30 --> Call to undefined method CodeIgniter\Filters\Filters::getFiltersClass()
+in SYSTEMPATH\View\View.php on line 239.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/main', [], true)
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_product', [], true)
+ 3 APPPATH\Controllers\Product.php(14): view('v_product', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')

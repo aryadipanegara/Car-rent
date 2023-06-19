@@ -1,0 +1,149 @@
+CRITICAL - 2023-06-19 04:45:11 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 04:53:15 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 04:53:18 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 13:37:40 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 13:47:32 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 13:47:32 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 13:47:45 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 13:50:16 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 13:50:17 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 13:50:18 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 13:54:30 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 345.
+ 1 SYSTEMPATH\Filters\Filters.php(345): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 13:54:30 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 345.
+ 1 SYSTEMPATH\Filters\Filters.php(345): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 13:54:53 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 345.
+ 1 SYSTEMPATH\Filters\Filters.php(345): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 13:58:53 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 348.
+ 1 SYSTEMPATH\Filters\Filters.php(348): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 13:59:57 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 13:59:58 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 341.
+ 1 SYSTEMPATH\Filters\Filters.php(341): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 14:03:50 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(180): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('product/save/1/1', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 14:52:05 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 348.
+ 1 SYSTEMPATH\Filters\Filters.php(348): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 14:52:05 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 348.
+ 1 SYSTEMPATH\Filters\Filters.php(348): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 15:02:44 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 348.
+ 1 SYSTEMPATH\Filters\Filters.php(348): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
+CRITICAL - 2023-06-19 15:28:55 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\mobil_rental\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\mobil_rental\\public\\index.php')
