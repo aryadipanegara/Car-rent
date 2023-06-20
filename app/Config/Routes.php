@@ -42,6 +42,7 @@ $routes->get('product/checkout/(:num)', 'Product::checkout/$1');
 $routes->post('product/save/(:num)/(:num)', 'Product::save/$1/$2');
 
 
+
 // routes.php
 
 $routes->get('price list', 'PriceList::index');

@@ -58,12 +58,6 @@
                                 <a class="nav-link page-scroll" href="<?= base_url('pricelist'); ?>">Price List</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link page-scroll" href="<?= base_url('booking'); ?>">Booking</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link page-scroll" href="<?= base_url('contact'); ?>">Contact</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link" href="<?= base_url('login'); ?>">Account</a>
                             </li>
                         </ul>
@@ -83,8 +77,8 @@
                         <img src="<?= base_url() ?>/assets/logos/rentallogo.png" alt="logo Mobil" height="80px"
                             width="80px">
                         <ul class="footer-menu">
-                            <li><a href="http://demo.com">Site</a></li>
-                            <li><a href="#">Support</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/Product">Product</a></li>
                             <li><a href="#">Terms</a></li>
                             <li><a href="#">Privacy</a></li>
                         </ul>

@@ -7,9 +7,9 @@
         <div class="hero-content app-hero-content text-center">
             <div class="row justify-content-md-center">
                 <div class="col-md-10">
-                    <h1 class="wow fadeInUp" data-wow-delay="0s">Sport Car Rent</h1>
+                    <h1 class="wow fadeInUp" data-wow-delay="0s">Car Rent</h1>
                     <p class="wow fadeInUp" data-wow-delay="0.2s">
-                        Kami dengan bangga mempersembahkan tempat rental mobil sport yang luar biasa. Kami memiliki
+                        Kami dengan bangga mempersembahkan tempat rental mobil yang luar biasa. Kami memiliki
                         koleksi mobil sport berkualitas tinggi yang sangat mengesankan. Jangan ragu untuk segera
                         mengambil tindakan dan melakukan pemesanan. Selain itu, kami juga menawarkan paket-paket yang
                         sangat menarik yang akan memenuhi kebutuhan dan keinginan Anda.
@@ -203,7 +203,7 @@
                             </div>
                             <div class="pricing-details">
                                 <h2>Paket Biasa</h2>
-                                <span>Rp. 1.500.000</span>
+                                <span>Rp. 3.000.000</span>
                                 <p>
                                     Berikut adalah detail paket lengkap yang kami tawarkan:
                                 </p>
@@ -232,7 +232,7 @@
                             </div>
                             <div class="pricing-details">
                                 <h2>Paket Super</h2>
-                                <span>Rp.2.500.000</span>
+                                <span>Rp.3.500.000</span>
                                 <p>
                                     Berikut adalah detail paket lengkap yang kami tawarkan:
                                 </p>
