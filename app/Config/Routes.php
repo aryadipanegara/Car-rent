@@ -40,6 +40,9 @@ $routes->get('product', 'Product::index');
 $routes->get('product/detail/(:num)', 'Product::detail/$1');
 $routes->get('product/checkout/(:num)', 'Product::checkout/$1');
 $routes->post('product/save/(:num)/(:num)', 'Product::save/$1/$2');
+$routes->get('/account', 'Account::index');
+$routes->get('backend', 'Backend\Layout::index');
+
 
 
 

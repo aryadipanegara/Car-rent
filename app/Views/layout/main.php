@@ -49,16 +49,17 @@
                         </ul>
                         <ul class="navbar-nav my-2 my-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link page-scroll" href="<?= base_url('home'); ?>">Home</a>
+                                <a class="nav-link page-scroll" href="<?= base_url('home'); ?>"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z"></path></svg></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link page-scroll" href="<?= base_url('product'); ?>">Product</a>
+                                <a class="nav-link page-scroll" href="<?= base_url('product'); ?>"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M140,128v40a12,12,0,0,1-24,0V128a12,12,0,0,1,24,0ZM243.82,98.64,230,202.64A20.06,20.06,0,0,1,210.13,220H45.87A20.07,20.07,0,0,1,26,202.65l-13.86-104A20,20,0,0,1,32,76H66.55L119,16.1a12,12,0,0,1,18.06,0L189.45,76H224a20,20,0,0,1,19.81,22.64ZM98.45,76h59.11L128,42.22Zm121,24H36.57l12.8,96H206.63Zm-51.37,26.81-4,40a12,12,0,0,0,10.75,13.13c.4,0,.81.06,1.21.06a12,12,0,0,0,11.92-10.81l4-40a12,12,0,1,0-23.88-2.38Zm-80.12,0a12,12,0,0,0-23.88,2.38l4,40A12,12,0,0,0,80,180c.39,0,.8,0,1.2-.06a12,12,0,0,0,10.75-13.13Z"></path></svg></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link page-scroll" href="<?= base_url('pricelist'); ?>">Price List</a>
+                                <a class="nav-link page-scroll" href="<?= base_url('pricelist'); ?>"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M4 6h2v2H4zm0 5h2v2H4zm0 5h2v2H4zm16-8V6H8.023v2H18.8zM8 11h12v2H8zm0 5h12v2H8z"></path></svg></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="<?= base_url('login'); ?>">Account</a>
+                                <a class="nav-link" href="<?= base_url('login'); ?>"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="20px" padding="0" width="20px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM7.35 18.5C8.66 17.56 10.26 17 12 17s3.34.56 4.65 1.5c-1.31.94-2.91 1.5-4.65 1.5s-3.34-.56-4.65-1.5zm10.79-1.38a9.947 9.947 0 00-12.28 0A7.957 7.957 0 014 12c0-4.42 3.58-8 8-8s8 3.58 8 8c0 1.95-.7 3.73-1.86 5.12z"></path><path d="M12 6c-1.93 0-3.5 1.57-3.5 3.5S10.07 13 12 13s3.5-1.57 3.5-3.5S13.93 6 12 6zm0 5c-.83 0-1.5-.67-1.5-1.5S11.17 8 12 8s1.5.67 1.5 1.5S12.83 11 12 11z"></path></svg></a>
+                                
                             </li>
                         </ul>
                     </div>

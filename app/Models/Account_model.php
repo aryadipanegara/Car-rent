@@ -6,24 +6,27 @@ use CodeIgniter\Model;
 
 class Account_model extends Model
 {
+    protected $table = 'tabel_merk';
+    protected $primaryKey = 'merk_id';
+    protected $allowedFields = ['merk_nama', 'merk_create'];
+
     public function getMerk()
     {
-        $bulder = $this->db->table('tabel_merk');
-        return $bulder->get();
+        return $this->findAll();
     }
+
     public function saveMerk($data)
     {
-        $query = $this->db->table('tabel_merk')->insert($data);
-        return $query;
+        return $this->insert($data);
     }
+
     public function deleteMerk($id)
     {
-        $query = $this->db->table('tabel_merk')->delete(array('merk_id' => $id));
-        return $query;
+        return $this->delete($id);
     }
-    public function updateMerk($data, $id)
+
+    public function updateMerk($id, $data)
     {
-        $query = $this->db->table('tabel_merk')->update($data, array('merk_id' => $id));
-        return $query;
+        return $this->update($id, $data);
     }
 }
