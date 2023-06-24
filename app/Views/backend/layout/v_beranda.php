@@ -1,23 +1,23 @@
-<?= $this->extend('backend/layout/main')  ?>
-<?= $this->extend('backend/layout/menu')  ?>
+<?= $this->extend('backend/layout/main') ?>
+<?= $this->extend('backend/layout/menu') ?>
 
-<?= $this->section('isi')  ?>
+<?= $this->section('isi') ?>
 
 <div class="alert alert-primary background-primary">
     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <i class="icofont icofont-close-line-circled"></i>
     </button>
-    <strong>Welcome! </strong> to the <strong> Sanak Rental </strong> Information System
+    <strong>Selamat Datang!</strong> ADMIN <strong>Sport Rental Mobil</strong>
 </div>
 <div class="row">
-    <!-- task, page, download counter  start -->
+    <!-- task, page, download counter start -->
     <div class="col-xl-3 col-md-6">
         <div class="card bg-c-yellow update-card">
             <div class="card-block">
                 <div class="row align-items-end">
                     <div class="col-8">
                         <h4 class="text-white">$30200</h4>
-                        <h6 class="text-white m-b-0">All Earnings</h6>
+                        <h6 class="text-white m-b-0">Total Pendapatan</h6>
                     </div>
                     <div class="col-4 text-right">
                         <canvas id="update-chart-1" height="50"></canvas>
@@ -25,7 +25,8 @@
                 </div>
             </div>
             <div class="card-footer">
-                <p class="text-white m-b-0"><i class="feather icon-clock text-white f-14 m-r-10"></i>update : 2:15 am</p>
+                <p class="text-white m-b-0"><i class="feather icon-clock text-white f-14 m-r-10"></i>terakhir
+                    diperbarui: 2:15 am</p>
             </div>
         </div>
     </div>
@@ -35,7 +36,7 @@
                 <div class="row align-items-end">
                     <div class="col-8">
                         <h4 class="text-white">290+</h4>
-                        <h6 class="text-white m-b-0">Page Views</h6>
+                        <h6 class="text-white m-b-0">Tampilan Halaman</h6>
                     </div>
                     <div class="col-4 text-right">
                         <canvas id="update-chart-2" height="50"></canvas>
@@ -43,7 +44,8 @@
                 </div>
             </div>
             <div class="card-footer">
-                <p class="text-white m-b-0"><i class="feather icon-clock text-white f-14 m-r-10"></i>update : 2:15 am</p>
+                <p class="text-white m-b-0"><i class="feather icon-clock text-white f-14 m-r-10"></i>terakhir
+                    diperbarui: 2:15 am</p>
             </div>
         </div>
     </div>
@@ -53,7 +55,7 @@
                 <div class="row align-items-end">
                     <div class="col-8">
                         <h4 class="text-white">145</h4>
-                        <h6 class="text-white m-b-0">Task Completed</h6>
+                        <h6 class="text-white m-b-0">Tugas Selesai</h6>
                     </div>
                     <div class="col-4 text-right">
                         <canvas id="update-chart-3" height="50"></canvas>
@@ -61,7 +63,8 @@
                 </div>
             </div>
             <div class="card-footer">
-                <p class="text-white m-b-0"><i class="feather icon-clock text-white f-14 m-r-10"></i>update : 2:15 am</p>
+                <p class="text-white m-b-0"><i class="feather icon-clock text-white f-14 m-r-10"></i>terakhir
+                    diperbarui: 2:15 am</p>
             </div>
         </div>
     </div>
@@ -71,7 +74,7 @@
                 <div class="row align-items-end">
                     <div class="col-8">
                         <h4 class="text-white">500</h4>
-                        <h6 class="text-white m-b-0">Downloads</h6>
+                        <h6 class="text-white m-b-0">Pengunduhan</h6>
                     </div>
                     <div class="col-4 text-right">
                         <canvas id="update-chart-4" height="50"></canvas>
@@ -79,10 +82,11 @@
                 </div>
             </div>
             <div class="card-footer">
-                <p class="text-white m-b-0"><i class="feather icon-clock text-white f-14 m-r-10"></i>update : 2:15 am</p>
+                <p class="text-white m-b-0"><i class="feather icon-clock text-white f-14 m-r-10"></i>terakhir
+                    diperbarui: 2:15 am</p>
             </div>
         </div>
     </div>
 </div>
 
-<?= $this->endSection(' ')  ?>
+<?= $this->endSection() ?>

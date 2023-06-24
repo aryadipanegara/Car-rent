@@ -1,0 +1,366 @@
+CRITICAL - 2023-06-24 03:14:13 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 348.
+ 1 SYSTEMPATH\Filters\Filters.php(348): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 03:14:14 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 348.
+ 1 SYSTEMPATH\Filters\Filters.php(348): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 03:16:32 --> Undefined property: CodeIgniter\View\View::$ion_auth
+in APPPATH\Views\backend\layout\menu.php on line 116.
+ 1 APPPATH\Views\backend\layout\menu.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$ion_auth', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\menu.php', 116)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/menu', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/layout/v_beranda', [], true)
+ 6 APPPATH\Controllers\Layout.php(9): view('backend/layout/v_beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 03:19:18 --> Undefined property: CodeIgniter\View\View::$ion_auth
+in APPPATH\Views\backend\layout\menu.php on line 116.
+ 1 APPPATH\Views\backend\layout\menu.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$ion_auth', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\menu.php', 116)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/menu', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/layout/v_beranda', [], true)
+ 6 APPPATH\Controllers\Layout.php(9): view('backend/layout/v_beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 03:23:41 --> Undefined property: CodeIgniter\View\View::$ion_auth
+in APPPATH\Views\backend\layout\menu.php on line 116.
+ 1 APPPATH\Views\backend\layout\menu.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$ion_auth', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\menu.php', 116)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/menu', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/layout/v_beranda', [], true)
+ 6 APPPATH\Controllers\Layout.php(9): view('backend/layout/v_beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 03:28:19 --> Undefined property: CodeIgniter\View\View::$ion_auth
+in APPPATH\Views\backend\layout\menu.php on line 116.
+ 1 APPPATH\Views\backend\layout\menu.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$ion_auth', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\menu.php', 116)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/menu', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/layout/v_beranda', [], true)
+ 6 APPPATH\Controllers\Layout.php(9): view('backend/layout/v_beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 03:31:48 --> Undefined property: CodeIgniter\View\View::$ion_auth
+in APPPATH\Views\backend\layout\menu.php on line 116.
+ 1 APPPATH\Views\backend\layout\menu.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$ion_auth', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\menu.php', 116)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/menu', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/layout/v_beranda', [], true)
+ 6 APPPATH\Controllers\Layout.php(9): view('backend/layout/v_beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 03:33:09 --> Undefined property: CodeIgniter\View\View::$ion_auth
+in APPPATH\Views\backend\layout\menu.php on line 116.
+ 1 APPPATH\Views\backend\layout\menu.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$ion_auth', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\menu.php', 116)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/menu', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/layout/v_beranda', [], true)
+ 6 APPPATH\Controllers\Layout.php(9): view('backend/layout/v_beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 03:33:44 --> Class "App\Libraries\IonAuth" not found
+in APPPATH\Controllers\Layout.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 03:44:49 --> Class "App\Libraries\IonAuth" not found
+in APPPATH\Controllers\Layout.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 03:45:00 --> Undefined property: CodeIgniter\View\View::$ion_auth
+in APPPATH\Views\backend\layout\menu.php on line 116.
+ 1 APPPATH\Views\backend\layout\menu.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$ion_auth', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\menu.php', 116)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/menu', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/layout/v_beranda', [], true)
+ 6 APPPATH\Controllers\Layout.php(9): view('backend/layout/v_beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 03:47:22 --> Call to undefined function in_groups()
+in APPPATH\Views\backend\layout\menu.php on line 116.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/menu', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/layout/v_beranda', [], true)
+ 5 APPPATH\Controllers\Layout.php(9): view('backend/layout/v_beranda')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 03:47:25 --> Call to undefined function in_groups()
+in APPPATH\Views\backend\layout\menu.php on line 116.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/menu', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/layout/v_beranda', [], true)
+ 5 APPPATH\Controllers\Layout.php(9): view('backend/layout/v_beranda')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-24 03:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:51:16 --> Trying to access array offset on value of type null
+in APPPATH\Views\backend\layout\main.php on line 191.
+ 1 APPPATH\Views\backend\layout\main.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\main.php', 191)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\main.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/main', [], true)
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/menu', [], true)
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/layout/v_beranda', [], true)
+ 7 APPPATH\Controllers\Layout.php(9): view('backend/layout/v_beranda')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-24 03:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:52:55 --> Trying to access array offset on value of type null
+in APPPATH\Views\backend\layout\main.php on line 173.
+ 1 APPPATH\Views\backend\layout\main.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\main.php', 173)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\main.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/main', [], true)
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/menu', [], true)
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/layout/v_beranda', [], true)
+ 7 APPPATH\Controllers\Layout.php(9): view('backend/layout/v_beranda')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-24 03:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:53:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\backend\layout\main.php on line 188.
+ 1 APPPATH\Views\backend\layout\main.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\main.php', 188)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\main.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/main', [], true)
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/menu', [], true)
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/layout/v_beranda', [], true)
+ 7 APPPATH\Controllers\Layout.php(9): view('backend/layout/v_beranda')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-24 03:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:53:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\backend\layout\main.php on line 188.
+ 1 APPPATH\Views\backend\layout\main.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\main.php', 188)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\main.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/main', [], true)
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/menu', [], true)
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/layout/v_beranda', [], true)
+ 7 APPPATH\Controllers\Layout.php(9): view('backend/layout/v_beranda')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-24 03:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:53:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\backend\layout\main.php on line 171.
+ 1 APPPATH\Views\backend\layout\main.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\main.php', 171)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\main.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/main', [], true)
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/menu', [], true)
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/layout/v_beranda', [], true)
+ 7 APPPATH\Controllers\Layout.php(9): view('backend/layout/v_beranda')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-24 03:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:53:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\backend\layout\main.php on line 171.
+ 1 APPPATH\Views\backend\layout\main.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\main.php', 171)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\main.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/main', [], true)
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/menu', [], true)
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/layout/v_beranda', [], true)
+ 7 APPPATH\Controllers\Layout.php(9): view('backend/layout/v_beranda')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-24 03:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:53:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\backend\layout\main.php on line 188.
+ 1 APPPATH\Views\backend\layout\main.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\main.php', 188)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\main.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/main', [], true)
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/menu', [], true)
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/layout/v_beranda', [], true)
+ 7 APPPATH\Controllers\Layout.php(9): view('backend/layout/v_beranda')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-24 03:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:54:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\backend\layout\main.php on line 173.
+ 1 APPPATH\Views\backend\layout\main.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\main.php', 173)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\layout\\main.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/main', [], true)
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('backend/layout/menu', [], true)
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/layout/v_beranda', [], true)
+ 7 APPPATH\Controllers\Layout.php(9): view('backend/layout/v_beranda')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layout->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-24 03:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:57:31 --> Undefined array key "penyewa_jenis_kelamin"
+in APPPATH\Views\backend\v_customer.php on line 62.
+ 1 APPPATH\Views\backend\v_customer.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "penyewa_jenis_kelamin"', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\v_customer.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\v_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/v_customer', [], true)
+ 5 APPPATH\Controllers\Customer.php(14): view('backend/v_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-24 03:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 03:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 03:58:04 --> Undefined array key "penyewa_jenis_kelamin"
+in APPPATH\Views\backend\v_customer.php on line 62.
+ 1 APPPATH\Views\backend\v_customer.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "penyewa_jenis_kelamin"', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\v_customer.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\backend\\v_customer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('backend/v_customer', [], true)
+ 5 APPPATH\Controllers\Customer.php(14): view('backend/v_customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-24 04:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 04:14:56 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 348.
+ 1 SYSTEMPATH\Filters\Filters.php(348): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-24 04:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 04:15:50 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 348.
+ 1 SYSTEMPATH\Filters\Filters.php(348): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-24 04:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 04:17:27 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 348.
+ 1 SYSTEMPATH\Filters\Filters.php(348): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 04:17:28 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 348.
+ 1 SYSTEMPATH\Filters\Filters.php(348): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-24 04:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 04:19:30 --> "role" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 348.
+ 1 SYSTEMPATH\Filters\Filters.php(348): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-24 04:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

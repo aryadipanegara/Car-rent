@@ -113,17 +113,12 @@
         </a>
     </li>
 
-    <?php if ($this->ion_auth->in_group('super-admin')) : ?>
-
     <li class="">
         <a href="<?= site_url('manageuser'); ?>">
             <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
             <span class="pcoded-mtext">Manage User</span>
         </a>
     </li>
-
-    <?php endif; ?>
-
 
 </ul>
 

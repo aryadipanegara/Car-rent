@@ -1,5 +1,7 @@
 <?= $this->extend('backend/layout/main') ?>
-<?= $this->section('menu') ?>
+<?= $this->extend('backend/layout/menu') ?>
+
+<?= $this->section('isi') ?>
 <?= $this->endSection() ?>
 
 <?= $this->section('isi') ?>

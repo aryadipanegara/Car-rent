@@ -33,7 +33,8 @@
             <!-- Zero config.table start -->
             <div class="card">
                 <div class="card-header">
-                    <button class="btn btn-mat btn-inverse col-2" data-toggle="modal" data-target="#addModal">Add Data</button>
+                    <button class="btn btn-mat btn-inverse col-2" data-toggle="modal" data-target="#addModal">Add
+                        Data</button>
                     <a href="#" class="btn btn-mat btn-primary col-2">Print Report</a>
                 </div>
                 <div class="card-block">
@@ -58,11 +59,18 @@
                                         <td> <?= $row['penyewa_email']; ?></td>
                                         <td> <?= $row['penyewa_alamat']; ?></td>
                                         <td> <?= $row['penyewa_no_telp']; ?></td>
-                                        <td style="text-align: center;">
-                                            <a href="#" class="btn-mini btn-primary btn-update" data-id="<?= $row['penyewa_id']; ?>" data-nama="<?= $row['penyewa_nama']; ?>" data-email="<?= $row['penyewa_email']; ?>" data-jenkel="<?= $row['penyewa_jenis_kelamin']; ?>" data-alamat="<?= $row['penyewa_alamat']; ?>" data-notelp="<?= $row['penyewa_no_telp']; ?>"><i class="icofont icofont-ui-edit"></i></a>
-                                            <a href="#" class="btn-mini btn-danger btn-delete" data-id="<?= $row['penyewa_id']; ?>"><i class="icofont icofont-ui-delete"></i></a>
-                                            <a href="#" class="btn-mini btn-warning btn-detail" data-id="<?= $row['penyewa_id']; ?>"><i class="icofont icofont-search-alt-1"></i></a>
-                                        </td>
+                                        <?php if ($row && isset($row['penyewa_id']) && isset($row['penyewa_nama']) && isset($row['penyewa_email']) && isset($row['penyewa_jenis_kelamin']) && isset($row['penyewa_alamat']) && isset($row['penyewa_no_telp'])) : ?>
+                                            <td style="text-align: center;">
+                                                <a href="#" class="btn-mini btn-primary btn-update" data-id="<?= $row['penyewa_id']; ?>" data-nama="<?= $row['penyewa_nama']; ?>" data-email="<?= $row['penyewa_email']; ?>" data-jenkel="<?= $row['penyewa_jenis_kelamin']; ?>" data-alamat="<?= $row['penyewa_alamat']; ?>" data-notelp="<?= $row['penyewa_no_telp']; ?>"><i class="icofont icofont-ui-edit"></i></a>
+                                                <a href="#" class="btn-mini btn-danger btn-delete" data-id="<?= $row['penyewa_id']; ?>"><i class="icofont icofont-ui-delete"></i></a>
+                                                <a href="#" class="btn-mini btn-warning btn-detail" data-id="<?= $row['penyewa_id']; ?>"><i class="icofont icofont-search-alt-1"></i></a>
+                                            </td>
+                                        <?php else : ?>
+                                            <td style="text-align: center;">
+                                                <!-- Tampilkan pesan atau aksi alternatif jika data tidak tersedia -->
+                                            </td>
+                                        <?php endif; ?>
+
                                     </tr>
                                 <?php endforeach; ?>
                             </tbody>
