@@ -1,0 +1,9 @@
+__ci_last_regenerate|i:1687799724;_ci_previous_url|s:42:"http://localhost:8080/index.php/auth/login";identity|s:15:"admin@admin.com";email|s:15:"admin@admin.com";user_id|s:1:"1";old_last_login|s:10:"1687794186";last_check|i:1687795350;message|s:309:"<!-- DEBUG-VIEW START 1 VENDORPATH\benedmunds\codeigniter-ion-auth\Views\Messages\list.php -->
+	<div class="alert alert-info" role="alert">
+		<ul>
+					<li>Password Reset Email Sent</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 VENDORPATH\benedmunds\codeigniter-ion-auth\Views\Messages\list.php -->
+";__ci_vars|a:1:{s:7:"message";s:3:"old";}

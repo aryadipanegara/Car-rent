@@ -56,7 +56,7 @@
             <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
             <span class="pcoded-mtext">Rental</span>
         </a>
-    </li>
+    <!-- </li>
     <li class="pcoded-hasmenu">
         <a href="javascript:void(0)">
             <span class="pcoded-micon"><i class="feather icon-edit"></i></span>
@@ -85,8 +85,8 @@
             </li>
         </ul>
     </li>
-</ul>
-<div class="pcoded-navigatio-lavel">Settings</div>
+</ul> -->
+<!-- <div class="pcoded-navigatio-lavel">Settings</div>
 <ul class="pcoded-item pcoded-left-item">
     <li class="">
         <a href="<?= site_url('backend/setting/user'); ?>">
@@ -118,7 +118,7 @@
             <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
             <span class="pcoded-mtext">Manage User</span>
         </a>
-    </li>
+    </li> -->
 
 </ul>
 

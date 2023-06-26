@@ -72,6 +72,10 @@ class ComposerStaticInit367c913fc5e9e4411f4b2977d049520b
         array (
             'Kint\\' => 5,
         ),
+        'I' => 
+        array (
+            'IonAuth\\' => 8,
+        ),
         'F' => 
         array (
             'Faker\\' => 6,
@@ -214,6 +218,10 @@ class ComposerStaticInit367c913fc5e9e4411f4b2977d049520b
         'Kint\\' => 
         array (
             0 => __DIR__ . '/..' . '/kint-php/kint/src',
+        ),
+        'IonAuth\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/benedmunds/codeigniter-ion-auth',
         ),
         'Faker\\' => 
         array (
@@ -1221,6 +1229,11 @@ class ComposerStaticInit367c913fc5e9e4411f4b2977d049520b
         'Faker\\Provider\\zh_TW\\Text' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Provider/zh_TW/Text.php',
         'Faker\\UniqueGenerator' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/UniqueGenerator.php',
         'Faker\\ValidGenerator' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/ValidGenerator.php',
+        'IonAuth\\Config\\IonAuth' => __DIR__ . '/..' . '/benedmunds/codeigniter-ion-auth/Config/IonAuth.php',
+        'IonAuth\\Controllers\\Auth' => __DIR__ . '/..' . '/benedmunds/codeigniter-ion-auth/Controllers/Auth.php',
+        'IonAuth\\Database\\Seeds\\IonAuthSeeder' => __DIR__ . '/..' . '/benedmunds/codeigniter-ion-auth/Database/Seeds/IonAuthSeeder.php',
+        'IonAuth\\Libraries\\IonAuth' => __DIR__ . '/..' . '/benedmunds/codeigniter-ion-auth/Libraries/IonAuth.php',
+        'IonAuth\\Models\\IonAuthModel' => __DIR__ . '/..' . '/benedmunds/codeigniter-ion-auth/Models/IonAuthModel.php',
         'Kint\\CallFinder' => __DIR__ . '/..' . '/kint-php/kint/src/CallFinder.php',
         'Kint\\FacadeInterface' => __DIR__ . '/..' . '/kint-php/kint/src/FacadeInterface.php',
         'Kint\\Kint' => __DIR__ . '/..' . '/kint-php/kint/src/Kint.php',

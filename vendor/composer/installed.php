@@ -1,15 +1,24 @@
 <?php return array(
     'root' => array(
         'name' => 'codeigniter4/framework',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'dc4a306bf2dae7695367caa687c5adb853f5ead9',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
+        'benedmunds/codeigniter-ion-auth' => array(
+            'pretty_version' => '4.x-dev',
+            'version' => '4.9999999.9999999.9999999-dev',
+            'reference' => 'a7431c186fc245cedb9a901006ba74e632221bd6',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../benedmunds/codeigniter-ion-auth',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'codeigniter/coding-standard' => array(
             'pretty_version' => 'v1.7.1',
             'version' => '1.7.1.0',
@@ -20,9 +29,9 @@
             'dev_requirement' => true,
         ),
         'codeigniter4/framework' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'dc4a306bf2dae7695367caa687c5adb853f5ead9',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
