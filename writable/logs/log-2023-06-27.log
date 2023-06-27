@@ -1,5 +1,4 @@
 INFO - 2023-06-27 07:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-<<<<<<< HEAD
 INFO - 2023-06-27 15:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-27 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-27 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
@@ -567,8 +566,7 @@ INFO - 2023-06-27 18:18:32 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-06-27 18:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-27 18:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-27 18:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-=======
->>>>>>> 7494b100a57de8643c2bda0d34f01f1b0de33cd1
+
 CRITICAL - 2023-06-27 18:25:42 --> syntax error, unexpected token "<<", expecting end of file
 in APPPATH\Config\Routes.php on line 37.
  1 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
