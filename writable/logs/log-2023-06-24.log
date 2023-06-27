@@ -364,3 +364,337 @@ INFO - 2023-06-24 04:31:50 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-06-24 04:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-24 04:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-24 04:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 05:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 05:56:45 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 05:58:23 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 05:59:35 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 05:59:36 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:00:00 --> Too few arguments to function App\Models\Product_model::getProductDetail(), 0 passed in C:\xampp\htdocs\Car-rent\app\Controllers\Checkout.php on line 12 and exactly 1 expected
+in APPPATH\Models\Product_model.php on line 17.
+ 1 APPPATH\Controllers\Checkout.php(12): App\Models\Product_model->getProductDetail()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:00:44 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:00:45 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:03:23 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:06:19 --> Undefined variable $product_id
+in APPPATH\Controllers\Checkout.php on line 19.
+ 1 APPPATH\Controllers\Checkout.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_id', 'C:\\xampp\\htdocs\\Car-rent\\app\\Controllers\\Checkout.php', 19)
+ 2 SYSTEMPATH\Router\AutoRouter.php(147): include_once('C:\\xampp\\htdocs\\Car-rent\\app\\Controllers\\Checkout.php')
+ 3 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('checkout')
+ 4 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('checkout')
+ 5 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('checkout')
+ 6 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:06:49 --> Undefined variable $productdetail
+in APPPATH\Views\v_checkout.php on line 4.
+ 1 APPPATH\Views\v_checkout.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productdetail', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\v_checkout.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\v_checkout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_checkout', [], true)
+ 5 APPPATH\Controllers\Checkout.php(13): view('v_checkout', [...])
+ 6 APPPATH\Controllers\Checkout.php(22): App\Controllers\Checkout->index(123)
+ 7 SYSTEMPATH\Router\AutoRouter.php(147): include_once('C:\\xampp\\htdocs\\Car-rent\\app\\Controllers\\Checkout.php')
+ 8 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('checkout')
+ 9 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('checkout')
+10 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('checkout')
+11 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:07:27 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\v_checkout.php on line 65.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_checkout', [], true)
+ 3 APPPATH\Controllers\Checkout.php(13): view('v_checkout', [...])
+ 4 APPPATH\Controllers\Checkout.php(22): App\Controllers\Checkout->index(123)
+ 5 SYSTEMPATH\Router\AutoRouter.php(147): include_once('C:\\xampp\\htdocs\\Car-rent\\app\\Controllers\\Checkout.php')
+ 6 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('checkout')
+ 7 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('checkout')
+ 8 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('checkout')
+ 9 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:08:28 --> Undefined variable $productdetail
+in APPPATH\Views\v_checkout.php on line 4.
+ 1 APPPATH\Views\v_checkout.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productdetail', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\v_checkout.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\v_checkout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_checkout', [], true)
+ 5 APPPATH\Controllers\Checkout.php(13): view('v_checkout', [...])
+ 6 APPPATH\Controllers\Checkout.php(22): App\Controllers\Checkout->index(123)
+ 7 SYSTEMPATH\Router\AutoRouter.php(147): include_once('C:\\xampp\\htdocs\\Car-rent\\app\\Controllers\\Checkout.php')
+ 8 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('checkout')
+ 9 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('checkout')
+10 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('checkout')
+11 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:09:05 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:10:40 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:11:26 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:11:30 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:11:41 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:15:28 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:20:08 --> Class "BaseController" not found
+in APPPATH\Controllers\Checkout.php on line 5.
+ 1 SYSTEMPATH\Router\AutoRouter.php(147): include_once()
+ 2 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('checkout')
+ 3 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('checkout')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('checkout')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:20:46 --> require_once(Product_model.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Checkout.php on line 3.
+ 1 APPPATH\Controllers\Checkout.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(Product_model.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Controllers\\Checkout.php', 3)
+ 2 APPPATH\Controllers\Checkout.php(3): require_once()
+ 3 SYSTEMPATH\Router\AutoRouter.php(147): include_once('C:\\xampp\\htdocs\\Car-rent\\app\\Controllers\\Checkout.php')
+ 4 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('checkout')
+ 5 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('checkout')
+ 6 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('checkout')
+ 7 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:21:44 --> require_once(Product_model.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Checkout.php on line 3.
+ 1 APPPATH\Controllers\Checkout.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(Product_model.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Controllers\\Checkout.php', 3)
+ 2 APPPATH\Controllers\Checkout.php(3): require_once()
+ 3 SYSTEMPATH\Router\AutoRouter.php(147): include_once('C:\\xampp\\htdocs\\Car-rent\\app\\Controllers\\Checkout.php')
+ 4 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('checkout')
+ 5 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('checkout')
+ 6 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('checkout')
+ 7 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:23:09 --> require_once(Product_model.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Checkout.php on line 3.
+ 1 APPPATH\Controllers\Checkout.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(Product_model.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Controllers\\Checkout.php', 3)
+ 2 APPPATH\Controllers\Checkout.php(3): require_once()
+ 3 SYSTEMPATH\Router\AutoRouter.php(147): include_once('C:\\xampp\\htdocs\\Car-rent\\app\\Controllers\\Checkout.php')
+ 4 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('checkout')
+ 5 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('checkout')
+ 6 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('checkout')
+ 7 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:25:13 --> require_once(../Models/Product_model.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Checkout.php on line 3.
+ 1 APPPATH\Controllers\Checkout.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(../Models/Product_model.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Controllers\\Checkout.php', 3)
+ 2 APPPATH\Controllers\Checkout.php(3): require_once()
+ 3 SYSTEMPATH\Router\AutoRouter.php(147): include_once('C:\\xampp\\htdocs\\Car-rent\\app\\Controllers\\Checkout.php')
+ 4 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('checkout')
+ 5 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('checkout')
+ 6 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('checkout')
+ 7 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:27:03 --> Class "App\Models\Product_model" not found
+in APPPATH\Controllers\Product.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->detail('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:27:04 --> Class "App\Models\Product_model" not found
+in APPPATH\Controllers\Product.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-24 06:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 06:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 06:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-24 06:29:24 --> Class "App\Models\Product_model" not found
+in APPPATH\Controllers\Product.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Product->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:33:26 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:35:36 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:35:39 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:35:40 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:35:40 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:37:05 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:39:28 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:41:59 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+CRITICAL - 2023-06-24 06:43:54 --> Too few arguments to function App\Controllers\Checkout::index(), 0 passed in C:\xampp\htdocs\Car-rent\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Checkout.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-24 08:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

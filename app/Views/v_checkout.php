@@ -3,6 +3,7 @@
 <?= $this->section('content')  ?>
 <?php foreach ($productdetail as $row) : ?>
 <form action="<?= base_url('product/save/' . $row['mobil_id'] . '/' . $row['mobil_id']) ?>" method="POST" id="rental">
+
     <div class="container">
         <div class="row">
             <div class="col-sm-3"></div>

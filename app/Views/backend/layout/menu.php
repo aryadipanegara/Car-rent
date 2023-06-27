@@ -56,6 +56,42 @@
             <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
             <span class="pcoded-mtext">Rental</span>
         </a>
+<<<<<<< HEAD
+    </li>
+    <div class="pcoded-navigatio-lavel">Settings</div>
+    <ul class="pcoded-item pcoded-left-item">
+        <!-- <li class="">
+            <a href="<?= site_url('backend/setting/user'); ?>">
+                <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
+                <span class="pcoded-mtext">Users Setting</span>
+            </a>
+        </li>
+        <li class="">
+            <a href="<?= site_url('backend/setting/slider'); ?>">
+                <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
+                <span class="pcoded-mtext">Slider Setting</span>
+            </a>
+        </li>
+        <li class="">
+            <a href="<?= site_url('backend/setting/pop-up'); ?>">
+                <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
+                <span class="pcoded-mtext">Pop Up Setting</span>
+            </a>
+        </li>
+        <li class="">
+            <a href="<?= site_url('backend/setting/info'); ?>">
+                <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
+                <span class="pcoded-mtext">Info Setting</span>
+            </a>
+        </li> -->
+
+        <li class="">
+            <a href="<?= site_url('manageuser'); ?>">
+                <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
+                <span class="pcoded-mtext">Manage User</span>
+            </a>
+        </li>
+=======
     <!-- </li>
     <li class="pcoded-hasmenu">
         <a href="javascript:void(0)">
@@ -119,7 +155,8 @@
             <span class="pcoded-mtext">Manage User</span>
         </a>
     </li> -->
+>>>>>>> 3f710eef10b4eff583af6348699dda97063290e7
 
-</ul>
+    </ul>
 
-<?= $this->endSection()  ?>
+    <?= $this->endSection()  ?>

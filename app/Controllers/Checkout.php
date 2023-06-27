@@ -10,6 +10,6 @@ class Checkout extends BaseController
     {
         $model = new Product_model();
         $data['rental'] = $model->getProductDetail($id);
-        echo view('v_checkout', $data);
+        return view('v_checkout', $data);
     }
 }
