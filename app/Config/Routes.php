@@ -8,7 +8,7 @@ $routes = Services::routes();
 // Load the system's routing file first, so that the app and ENVIRONMENT
 // can override as needed.
 if (file_exists(SYSTEMPATH . 'Config/Routes.php')) {
-    require SYSTEMPATH . 'Config/Routes.php';
+	require SYSTEMPATH . 'Config/Routes.php';
 }
 
 /**
@@ -31,33 +31,30 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+
+
 $routes->get('/', 'Home::index');
-$routes->get('/admin', 'Layout::index');
-$routes->get('/manageuser', 'ManageUser::index');
-$routes->get('/manageuser/index', 'ManageUser::index');
+$routes->get('/admin', 'Layout::index', ['filter' => 'role:admin,super-admin']);
+$routes->get('/manageuser', 'ManageUser::index', ['filter' => 'role:super-admin']);
+$routes->get('/manageuser/index', 'ManageUser::index', ['filter' => 'role:super-admin']);
+
+$routes->group('manageuser', function ($routes) {
+	$routes->get('/', 'ManageUser::index');
+	$routes->get('index', 'ManageUser::index');
+});
 
 $routes->get('product', 'Product::index');
 $routes->get('product/detail/(:num)', 'Product::detail/$1');
 $routes->get('product/checkout/(:num)', 'Product::checkout/$1');
 $routes->post('product/save/(:num)/(:num)', 'Product::save/$1/$2');
-$routes->get('/account', 'Account::index');
+
+$routes->get('account', 'Account::index');
 $routes->get('backend', 'Backend\Layout::index');
 
-$routes->group('auth', ['namespace' => 'IonAuth\Controllers'], function ($routes) {
-	$routes->add('login', 'Auth::login');
-	$routes->get('logout', 'Auth::logout');
-	$routes->add('forgot_password', 'Auth::forgot_password');
-	// $routes->get('/', 'Auth::index');
-	// $routes->add('create_user', 'Auth::create_user');
-	// $routes->add('edit_user/(:num)', 'Auth::edit_user/$1');
-	// $routes->add('create_group', 'Auth::create_group');
-	// $routes->get('activate/(:num)', 'Auth::activate/$1');
-	// $routes->get('activate/(:num)/(:hash)', 'Auth::activate/$1/$2');
-	// $routes->add('deactivate/(:num)', 'Auth::deactivate/$1');
-	// $routes->get('reset_password/(:hash)', 'Auth::reset_password/$1');
-	// $routes->post('reset_password/(:hash)', 'Auth::reset_password/$1');
-	// ...
-});
+$routes->get('admin/login', 'Admin\Login::index');
+$routes->post('admin/login', 'Admin\Login::login');
+$routes->get('admin/logout', 'Admin\Login::logout');
+
 
 
 // routes.php
@@ -81,5 +78,5 @@ $routes->post('price list', 'PriceList::generatePdf');
  * needing to reload it.
  */
 if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
-    require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
+	require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }

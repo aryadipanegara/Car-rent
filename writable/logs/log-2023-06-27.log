@@ -1,0 +1,568 @@
+INFO - 2023-06-27 07:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-27 15:49:22 --> mysqli_sql_exception: Table 'rental-mobil.tabel_mobil' doesn't exist in C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Car-rent\app\Models\Product_model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Car-rent\app\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+#6 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Product->index()
+#7 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Car-rent\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-27 15:49:22 --> Table 'rental-mobil.tabel_mobil' doesn't exist
+in VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php on line 295.
+ 1 VENDORPATH\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tabel_mobil`
+JOIN `tabel_merk` ON `tabel_mobil`.`mobil_id_merk` = `tabel_merk`.`merk_id`
+JOIN `tabel_jenis` ON `tabel_mobil`.`mobil_id_jenis` = `tabel_jenis`.`jenis_id`', 0)
+ 2 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tabel_mobil`
+JOIN `tabel_merk` ON `tabel_mobil`.`mobil_id_merk` = `tabel_merk`.`merk_id`
+JOIN `tabel_jenis` ON `tabel_mobil`.`mobil_id_jenis` = `tabel_jenis`.`jenis_id`')
+ 3 VENDORPATH\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tabel_mobil`
+JOIN `tabel_merk` ON `tabel_mobil`.`mobil_id_merk` = `tabel_merk`.`merk_id`
+JOIN `tabel_jenis` ON `tabel_mobil`.`mobil_id_jenis` = `tabel_jenis`.`jenis_id`')
+ 4 VENDORPATH\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tabel_mobil`
+JOIN `tabel_merk` ON `tabel_mobil`.`mobil_id_merk` = `tabel_merk`.`merk_id`
+JOIN `tabel_jenis` ON `tabel_mobil`.`mobil_id_jenis` = `tabel_jenis`.`jenis_id`', [], false)
+ 5 APPPATH\Models\Product_model.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Product.php(13): App\Models\Product_model->getProduct()
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Product->index()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 15:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-27 15:56:15 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1735)
+#1 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Email\Email.php(1735): mail('admin@email.com', '=?UTF-8?Q?Activ...', 'This is a multi...', 'Date: Tue, 27 J...', '-f aryadipanega...')
+#2 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Car-rent\vendor\myth\auth\src\Authentication\Activators\EmailActivator.php(32): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Car-rent\vendor\myth\auth\src\Controllers\AuthController.php(185): Myth\Auth\Authentication\Activators\EmailActivator->send(Object(Myth\Auth\Entities\User))
+#6 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptRegister()
+#7 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Car-rent\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-06-27 15:56:15 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-06-27 15:56:15 --> 
+INFO - 2023-06-27 15:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-27 15:57:50 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1735)
+#1 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Email\Email.php(1735): mail('admin123@gmail....', '=?UTF-8?Q?Activ...', 'This is a multi...', 'Date: Tue, 27 J...', '-f aryadipanega...')
+#2 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Car-rent\vendor\myth\auth\src\Authentication\Activators\EmailActivator.php(32): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Car-rent\vendor\myth\auth\src\Controllers\AuthController.php(185): Myth\Auth\Authentication\Activators\EmailActivator->send(Object(Myth\Auth\Entities\User))
+#6 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptRegister()
+#7 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Car-rent\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-06-27 15:57:50 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-06-27 15:57:50 --> 
+INFO - 2023-06-27 15:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 15:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 16:01:11 --> Undefined property: Myth\Auth\Config\Auth::$activeResetter
+in VENDORPATH\myth\auth\src\Views\login.php on line 64.
+ 1 VENDORPATH\myth\auth\src\Views\login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Myth\\Auth\\Config\\Auth::$activeResetter', 'C:\\xampp\\htdocs\\Car-rent\\vendor\\myth\\auth\\src\\Views\\login.php', 64)
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\vendor\\myth\\auth\\src\\Views\\login.php')
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Myth\\Auth\\Views\\login', [], true)
+ 5 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('Myth\\Auth\\Views\\login', [...])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('Myth\\Auth\\Views\\login', [...])
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 16:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 16:01:27 --> Undefined property: Myth\Auth\Config\Auth::$activeResetter
+in VENDORPATH\myth\auth\src\Views\login.php on line 64.
+ 1 VENDORPATH\myth\auth\src\Views\login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Myth\\Auth\\Config\\Auth::$activeResetter', 'C:\\xampp\\htdocs\\Car-rent\\vendor\\myth\\auth\\src\\Views\\login.php', 64)
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\vendor\\myth\\auth\\src\\Views\\login.php')
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Myth\\Auth\\Views\\login', [], true)
+ 5 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('Myth\\Auth\\Views\\login', [...])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('Myth\\Auth\\Views\\login', [...])
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 16:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 16:03:44 --> Undefined property: Myth\Auth\Config\Auth::$activeResetter
+in VENDORPATH\myth\auth\src\Views\login.php on line 64.
+ 1 VENDORPATH\myth\auth\src\Views\login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Myth\\Auth\\Config\\Auth::$activeResetter', 'C:\\xampp\\htdocs\\Car-rent\\vendor\\myth\\auth\\src\\Views\\login.php', 64)
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\vendor\\myth\\auth\\src\\Views\\login.php')
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Myth\\Auth\\Views\\login', [], true)
+ 5 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('Myth\\Auth\\Views\\login', [...])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('Myth\\Auth\\Views\\login', [...])
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 16:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 16:05:26 --> Class name must be a valid object or a string
+in VENDORPATH\myth\auth\src\Config\Services.php on line 81.
+ 1 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+ 2 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('activator', [...])
+ 3 VENDORPATH\myth\auth\src\Config\Services.php(74): CodeIgniter\Config\BaseService::getSharedInstance('activator', null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator()
+ 5 SYSTEMPATH\Common.php(1016): CodeIgniter\Config\BaseService::__callStatic('activator', [])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(184): service('activator')
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 16:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 16:09:28 --> Myth\Auth\Config\Services::activator(): Return value must be of type Myth\Auth\Authentication\Activators\ActivatorInterface, none returned
+in VENDORPATH\myth\auth\src\Config\Services.php on line 82.
+ 1 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+ 2 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('activator', [...])
+ 3 VENDORPATH\myth\auth\src\Config\Services.php(74): CodeIgniter\Config\BaseService::getSharedInstance('activator', null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator()
+ 5 SYSTEMPATH\Common.php(1016): CodeIgniter\Config\BaseService::__callStatic('activator', [])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(184): service('activator')
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 16:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 16:10:21 --> Call to a member function send() on null
+in VENDORPATH\myth\auth\src\Controllers\AuthController.php on line 185.
+ 1 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 2 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 16:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 16:12:12 --> Class name must be a valid object or a string
+in VENDORPATH\myth\auth\src\Config\Services.php on line 81.
+ 1 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+ 2 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('activator', [...])
+ 3 VENDORPATH\myth\auth\src\Config\Services.php(74): CodeIgniter\Config\BaseService::getSharedInstance('activator', null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): Myth\Auth\Config\Services::activator()
+ 5 SYSTEMPATH\Common.php(1016): CodeIgniter\Config\BaseService::__callStatic('activator', [])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(184): service('activator')
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 16:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-27 16:25:21 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed in C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Email\Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp\\htdocs...', 1863)
+#1 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Email\Email.php(1863): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\Car-rent\vendor\myth\auth\src\Authentication\Activators\EmailActivator.php(32): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\Car-rent\vendor\myth\auth\src\Controllers\AuthController.php(185): Myth\Auth\Authentication\Activators\EmailActivator->send(Object(Myth\Auth\Entities\User))
+#7 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Car-rent\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Car-rent\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-06-27 16:25:21 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-27 16:25:21 --> 
+INFO - 2023-06-27 16:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 17:04:02 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 17:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 17:04:05 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 17:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 17:04:05 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 17:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 17:16:10 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 VENDORPATH\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 17:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 17:26:58 --> Invalid file: "\App\Views\Auth\login.php"
+in VENDORPATH\codeigniter4\framework\system\Exceptions\FrameworkException.php on line 33.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Views\\Auth\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 17:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 17:27:20 --> Invalid file: "\App\Views\Layout\login.php"
+in VENDORPATH\codeigniter4\framework\system\Exceptions\FrameworkException.php on line 33.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Views\\Layout\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Layout\\login', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Layout\\login', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Layout\\login', [...])
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 17:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 17:27:21 --> Invalid file: "\App\Views\Layout\login.php"
+in VENDORPATH\codeigniter4\framework\system\Exceptions\FrameworkException.php on line 33.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Views\\Layout\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Layout\\login', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Layout\\login', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Layout\\login', [...])
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 17:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 17:27:22 --> Invalid file: "\App\Views\Layout\login.php"
+in VENDORPATH\codeigniter4\framework\system\Exceptions\FrameworkException.php on line 33.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Views\\Layout\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Layout\\login', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Layout\\login', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Layout\\login', [...])
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 17:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 17:27:22 --> Invalid file: "\App\Views\Layout\login.php"
+in VENDORPATH\codeigniter4\framework\system\Exceptions\FrameworkException.php on line 33.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Views\\Layout\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Layout\\login', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Layout\\login', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Layout\\login', [...])
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 17:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 17:27:34 --> Invalid file: "\App\Views\Layout\v_login.php"
+in VENDORPATH\codeigniter4\framework\system\Exceptions\FrameworkException.php on line 33.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Views\\Layout\\v_login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Layout\\v_login', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Layout\\v_login', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Layout\\v_login', [...])
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 17:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 17:27:35 --> Invalid file: "\App\Views\Layout\v_login.php"
+in VENDORPATH\codeigniter4\framework\system\Exceptions\FrameworkException.php on line 33.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Views\\Layout\\v_login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Layout\\v_login', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Layout\\v_login', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Layout\\v_login', [...])
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 17:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 17:27:43 --> Invalid file: "\App\Views\login.php"
+in VENDORPATH\codeigniter4\framework\system\Exceptions\FrameworkException.php on line 33.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Views\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\login', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\login', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\login', [...])
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 17:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 17:27:44 --> Invalid file: "\App\Views\login.php"
+in VENDORPATH\codeigniter4\framework\system\Exceptions\FrameworkException.php on line 33.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Views\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\login', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\login', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\login', [...])
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 17:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 17:27:44 --> Invalid file: "\App\Views\login.php"
+in VENDORPATH\codeigniter4\framework\system\Exceptions\FrameworkException.php on line 33.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Views\\login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\login', [], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\login', [...])
+ 4 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\login', [...])
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-27 17:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 18:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

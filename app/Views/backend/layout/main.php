@@ -7,39 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="#">
-    <meta name="keywords"
-        content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+    <meta name="keywords" content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
     <meta name="author" content="#">
     <!-- Favicon icon -->
     <link rel="icon" href="<?= base_url('backend/files/assets/images/rentallogo.png') ?>" type="image/x-icon">
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
     <!-- Required Fremwork -->
-    <link rel="stylesheet" type="text/css"
-        href="<?= base_url('backend/files/bower_components/bootstrap/css/bootstrap.min.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('backend/files/bower_components/bootstrap/css/bootstrap.min.css') ?>">
     <!-- sweet alert framework -->
-    <link rel="stylesheet" type="text/css"
-        href="<?= base_url('backend/files/bower_components/sweetalert/css/sweetalert.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('backend/files/bower_components/sweetalert/css/sweetalert.css') ?>">
     <!-- themify-icons line icon -->
-    <link rel="stylesheet" type="text/css"
-        href="<?= base_url('backend/files/assets/icon/themify-icons/themify-icons.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('backend/files/assets/icon/themify-icons/themify-icons.css') ?>">
     <!-- ico font -->
     <link rel="stylesheet" type="text/css" href="<?= base_url('backend/files/assets/icon/icofont/css/icofont.css') ?>">
     <!-- feather Awesome -->
     <link rel="stylesheet" type="text/css" href="<?= base_url('backend/files/assets/icon/feather/css/feather.css') ?>">
     <!-- datatable css -->
-    <link rel="stylesheet" type="text/css"
-        href="<?= base_url('backend/files/bower_components/datatables.net-bs4/css/dataTables.bootstrap4.min.css') ?>">
-    <link rel="stylesheet" type="text/css"
-        href="<?= base_url('backend/files/assets/pages/data-table/css/buttons.dataTables.min.css') ?>">
-    <link rel="stylesheet" type="text/css"
-        href="<?= base_url('backend/files/bower_components/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('backend/files/bower_components/datatables.net-bs4/css/dataTables.bootstrap4.min.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('backend/files/assets/pages/data-table/css/buttons.dataTables.min.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('backend/files/bower_components/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css') ?>">
     <!-- animation nifty modal window effects css -->
     <link rel="stylesheet" type="text/css" href="<?= base_url('backend/files/assets/css/component.css') ?>">
     <!-- Style.css -->
     <link rel="stylesheet" type="text/css" href="<?= base_url('backend/files/assets/css/style.css') ?>">
-    <link rel="stylesheet" type="text/css"
-        href="<?= base_url('backend/files/assets/css/jquery.mCustomScrollbar.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('backend/files/assets/css/jquery.mCustomScrollbar.css') ?>">
     <script type="text/javascript" src="<?= base_url('backend/files/bower_components/jquery/js/jquery.min.js') ?>">
     </script>
 </head>
@@ -94,15 +86,14 @@
                         <a class="mobile-menu" id="mobile-collapse" href="#!">
                             <i class="feather icon-menu"></i>
                         </a>
-                        <a href="index-1.htm">
-                            <img class="img-fluid logo-img"
-                                src="<?= base_url('backend/files/assets/images/rentallogo.png') ?>" alt="Theme-Logo">
+                        <a href="<?= base_url('home'); ?>">
+                            <img class="img-fluid logo-img" src="<?= base_url('backend/files/assets/images/rentallogo.png') ?>" alt="Theme-Logo">
                         </a>
                         <style>
-                        .logo-img {
-                            width: 60px;
-                            height: 60px;
-                        }
+                            .logo-img {
+                                width: 60px;
+                                height: 60px;
+                            }
                         </style>
 
                         <a class="mobile-options">
@@ -115,11 +106,9 @@
                             <li class="header-search">
                                 <div class="main-search morphsearch-search">
                                     <div class="input-group">
-                                        <span class="input-group-addon search-close"><i
-                                                class="feather icon-x"></i></span>
+                                        <span class="input-group-addon search-close"><i class="feather icon-x"></i></span>
                                         <input type="text" class="form-control">
-                                        <span class="input-group-addon search-btn"><i
-                                                class="feather icon-search"></i></span>
+                                        <span class="input-group-addon search-btn"><i class="feather icon-search"></i></span>
                                     </div>
                                 </div>
                             </li>
@@ -136,17 +125,14 @@
                                         <i class="feather icon-bell"></i>
                                         <span class="badge bg-c-pink">5</span>
                                     </div>
-                                    <ul class="show-notification notification-view dropdown-menu"
-                                        data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                                    <ul class="show-notification notification-view dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
                                         <li>
                                             <h6>Notifications</h6>
                                             <label class="label label-danger">New</label>
                                         </li>
                                         <li>
                                             <div class="media">
-                                                <img class="d-flex align-self-center img-radius"
-                                                    src="<?= base_url('backend/files/assets/images/avatar-4.jpg') ?>"
-                                                    alt="Generic placeholder image">
+                                                <img class="d-flex align-self-center img-radius" src="<?= base_url('backend/files/assets/images/avatar-4.jpg') ?>" alt="Generic placeholder image">
                                                 <div class="media-body">
                                                     <h5 class="notification-user">John Doe</h5>
                                                     <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer
@@ -157,9 +143,7 @@
                                         </li>
                                         <li>
                                             <div class="media">
-                                                <img class="d-flex align-self-center img-radius"
-                                                    src="<?= base_url('backend/files/assets/images/avatar-3.jpg') ?>"
-                                                    alt="Generic placeholder image">
+                                                <img class="d-flex align-self-center img-radius" src="<?= base_url('backend/files/assets/images/avatar-3.jpg') ?>" alt="Generic placeholder image">
                                                 <div class="media-body">
                                                     <h5 class="notification-user">Joseph William</h5>
                                                     <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer
@@ -170,9 +154,7 @@
                                         </li>
                                         <li>
                                             <div class="media">
-                                                <img class="d-flex align-self-center img-radius"
-                                                    src="<?= base_url('backend/files/assets/images/avatar-4.jpg') ?>"
-                                                    alt="Generic placeholder image">
+                                                <img class="d-flex align-self-center img-radius" src="<?= base_url('backend/files/assets/images/avatar-4.jpg') ?>" alt="Generic placeholder image">
                                                 <div class="media-body">
                                                     <h5 class="notification-user">Sara Soudein</h5>
                                                     <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer
@@ -196,16 +178,14 @@
                                 <div class="dropdown-primary dropdown">
                                     <div class="dropdown-toggle" data-toggle="dropdown">
                                         <?php if (session('user') && isset(session('user')['image'])) : ?>
-                                        <img src="<?= base_url(); ?>/backend/files/assets/images/<?= session('user')['image']; ?>"
-                                            class="img-radius" alt="User-Profile-Image">
+                                            <img src="<?= base_url(); ?>/backend/files/assets/images/<?= session('user')['image']; ?>" class="img-radius" alt="User-Profile-Image">
                                         <?php else : ?>
-                                        <img src="<?= base_url(); ?>/path/to/default/image.jpg" class="img-radius"
-                                            alt="Default-Image">
+                                            <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20stroke%3D%22currentColor%22%20fill%3D%22currentColor%22%20stroke-width%3D%220%22%20viewBox%3D%220%200%2024%2024%22%20height%3D%221em%22%20width%3D%221em%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M12%2014V22H4C4%2017.5817%207.58172%2014%2012%2014ZM12%2013C8.685%2013%206%2010.315%206%207C6%203.685%208.685%201%2012%201C15.315%201%2018%203.685%2018%207C18%2010.315%2015.315%2013%2012%2013ZM21%2017H22V22H14V17H15V16C15%2014.3431%2016.3431%2013%2018%2013C19.6569%2013%2021%2014.3431%2021%2016V17ZM19%2017V16C19%2015.4477%2018.5523%2015%2018%2015C17.4477%2015%2017%2015.4477%2017%2016V17H19Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E" class="img-radius" alt="Default-Image">
                                         <?php endif; ?>
                                         <?php if (session('user') && isset(session('user')['fullname'])) : ?>
-                                        <span><?= session('user')['fullname']; ?></span>
+                                            <span><?= session('user')['fullname']; ?></span>
                                         <?php else : ?>
-                                        <span>Guest</span>
+                                            <span>ADMIN</span>
                                         <?php endif; ?>
                                         <i class="feather icon-chevron-down"></i>
                                     </div>
@@ -213,8 +193,7 @@
                                 </div>
 
 
-                                <ul class="show-notification profile-notification dropdown-menu"
-                                    data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                                <ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
                                     <li>
                                         <a href="#!">
                                             <i class="feather icon-settings"></i> Settings
@@ -257,8 +236,7 @@
                         <div class="chat-inner-header">
                             <div class="back_chatBox">
                                 <div class="right-icon-control">
-                                    <input type="text" class="form-control  search-text" placeholder="Search Friend"
-                                        id="search-friends">
+                                    <input type="text" class="form-control  search-text" placeholder="Search Friend" id="search-friends">
                                     <div class="form-icon">
                                         <i class="icofont icofont-search"></i>
                                     </div>
@@ -266,61 +244,45 @@
                             </div>
                         </div>
                         <div class="main-friend-list">
-                            <div class="media userlist-box" data-id="1" data-status="online"
-                                data-username="Josephin Doe" data-toggle="tooltip" data-placement="left"
-                                title="Josephin Doe">
+                            <div class="media userlist-box" data-id="1" data-status="online" data-username="Josephin Doe" data-toggle="tooltip" data-placement="left" title="Josephin Doe">
                                 <a class="media-left" href="#!">
-                                    <img class="media-object img-radius img-radius"
-                                        src="<?= base_url('backend/files/assets/images/avatar-3.jpg') ?>"
-                                        alt="Generic placeholder image ">
+                                    <img class="media-object img-radius img-radius" src="<?= base_url('backend/files/assets/images/avatar-3.jpg') ?>" alt="Generic placeholder image ">
                                     <div class="live-status bg-success"></div>
                                 </a>
                                 <div class="media-body">
                                     <div class="f-13 chat-header">Josephin Doe</div>
                                 </div>
                             </div>
-                            <div class="media userlist-box" data-id="2" data-status="online" data-username="Lary Doe"
-                                data-toggle="tooltip" data-placement="left" title="Lary Doe">
+                            <div class="media userlist-box" data-id="2" data-status="online" data-username="Lary Doe" data-toggle="tooltip" data-placement="left" title="Lary Doe">
                                 <a class="media-left" href="#!">
-                                    <img class="media-object img-radius"
-                                        src="<?= base_url('backend/files/assets/images/avatar-2.jpg') ?>"
-                                        alt="Generic placeholder image">
+                                    <img class="media-object img-radius" src="<?= base_url('backend/files/assets/images/avatar-2.jpg') ?>" alt="Generic placeholder image">
                                     <div class="live-status bg-success"></div>
                                 </a>
                                 <div class="media-body">
                                     <div class="f-13 chat-header">Lary Doe</div>
                                 </div>
                             </div>
-                            <div class="media userlist-box" data-id="3" data-status="online" data-username="Alice"
-                                data-toggle="tooltip" data-placement="left" title="Alice">
+                            <div class="media userlist-box" data-id="3" data-status="online" data-username="Alice" data-toggle="tooltip" data-placement="left" title="Alice">
                                 <a class="media-left" href="#!">
-                                    <img class="media-object img-radius"
-                                        src="<?= base_url('backend/files/assets/images/avatar-4.jpg') ?>"
-                                        alt="Generic placeholder image">
+                                    <img class="media-object img-radius" src="<?= base_url('backend/files/assets/images/avatar-4.jpg') ?>" alt="Generic placeholder image">
                                     <div class="live-status bg-success"></div>
                                 </a>
                                 <div class="media-body">
                                     <div class="f-13 chat-header">Alice</div>
                                 </div>
                             </div>
-                            <div class="media userlist-box" data-id="4" data-status="online" data-username="Alia"
-                                data-toggle="tooltip" data-placement="left" title="Alia">
+                            <div class="media userlist-box" data-id="4" data-status="online" data-username="Alia" data-toggle="tooltip" data-placement="left" title="Alia">
                                 <a class="media-left" href="#!">
-                                    <img class="media-object img-radius"
-                                        src="<?= base_url('backend/files/assets/images/avatar-3.jpg') ?>"
-                                        alt="Generic placeholder image">
+                                    <img class="media-object img-radius" src="<?= base_url('backend/files/assets/images/avatar-3.jpg') ?>" alt="Generic placeholder image">
                                     <div class="live-status bg-success"></div>
                                 </a>
                                 <div class="media-body">
                                     <div class="f-13 chat-header">Alia</div>
                                 </div>
                             </div>
-                            <div class="media userlist-box" data-id="5" data-status="online" data-username="Suzen"
-                                data-toggle="tooltip" data-placement="left" title="Suzen">
+                            <div class="media userlist-box" data-id="5" data-status="online" data-username="Suzen" data-toggle="tooltip" data-placement="left" title="Suzen">
                                 <a class="media-left" href="#!">
-                                    <img class="media-object img-radius"
-                                        src="<?= base_url('backend/files/assets/images/avatar-2.jpg') ?>"
-                                        alt="Generic placeholder image">
+                                    <img class="media-object img-radius" src="<?= base_url('backend/files/assets/images/avatar-2.jpg') ?>" alt="Generic placeholder image">
                                     <div class="live-status bg-success"></div>
                                 </a>
                                 <div class="media-body">
@@ -341,9 +303,7 @@
             </div>
             <div class="media chat-messages">
                 <a class="media-left photo-table" href="#!">
-                    <img class="media-object img-radius img-radius m-t-5"
-                        src="<?= base_url('backend/files/assets/images/avatar-3.jpg') ?>"
-                        alt="Generic placeholder image">
+                    <img class="media-object img-radius img-radius m-t-5" src="<?= base_url('backend/files/assets/images/avatar-3.jpg') ?>" alt="Generic placeholder image">
                 </a>
                 <div class="media-body chat-menu-content">
                     <div class="">
@@ -361,9 +321,7 @@
                 </div>
                 <div class="media-right photo-table">
                     <a href="#!">
-                        <img class="media-object img-radius img-radius m-t-5"
-                            src="<?= base_url('backend/files/assets/images/avatar-4.jpg') ?>"
-                            alt="Generic placeholder image">
+                        <img class="media-object img-radius img-radius m-t-5" src="<?= base_url('backend/files/assets/images/avatar-4.jpg') ?>" alt="Generic placeholder image">
                     </a>
                 </div>
             </div>
@@ -449,15 +407,12 @@
     <!-- Required Jquery -->
     <script type="text/javascript" src="<?= base_url('backend/files/bower_components/jquery/js/jquery.min.js') ?>">
     </script>
-    <script type="text/javascript"
-        src="<?= base_url('backend/files/bower_components/jquery-ui/js/jquery-ui.min.js') ?>"></script>
+    <script type="text/javascript" src="<?= base_url('backend/files/bower_components/jquery-ui/js/jquery-ui.min.js') ?>"></script>
     <script type="text/javascript" src="<?= base_url('backend/files/bower_components/popper.js/js/popper.min.js') ?>">
     </script>
-    <script type="text/javascript"
-        src="<?= base_url('backend/files/bower_components/bootstrap/js/bootstrap.min.js') ?>"></script>
+    <script type="text/javascript" src="<?= base_url('backend/files/bower_components/bootstrap/js/bootstrap.min.js') ?>"></script>
     <!-- jquery slimscroll js -->
-    <script type="text/javascript"
-        src="<?= base_url('backend/files/bower_components/jquery-slimscroll/js/jquery.slimscroll.js') ?>"></script>
+    <script type="text/javascript" src="<?= base_url('backend/files/bower_components/jquery-slimscroll/js/jquery.slimscroll.js') ?>"></script>
     <!-- modernizr js -->
     <script type="text/javascript" src="<?= base_url('backend/files/bower_components/modernizr/js/modernizr.js') ?>">
     </script>
@@ -474,18 +429,15 @@
     </script>
     <script src="<?= base_url('backend/files/bower_components/datatables.net-bs4/js/dataTables.bootstrap4.min.js') ?>">
     </script>
-    <script
-        src="<?= base_url('backend/files/bower_components/datatables.net-responsive/js/dataTables.responsive.min.js') ?>">
+    <script src="<?= base_url('backend/files/bower_components/datatables.net-responsive/js/dataTables.responsive.min.js') ?>">
     </script>
-    <script
-        src="<?= base_url('backend/files/bower_components/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js') ?>">
+    <script src="<?= base_url('backend/files/bower_components/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js') ?>">
     </script>
     <!-- Chart js -->
     <script type="text/javascript" src="<?= base_url('backend/files/bower_components/chart.js/js/Chart.js') ?>">
     </script>
     <!-- sweet alert js -->
-    <script type="text/javascript"
-        src="<?= base_url('backend/files/bower_components/sweetalert/js/sweetalert.min.js') ?>"></script>
+    <script type="text/javascript" src="<?= base_url('backend/files/bower_components/sweetalert/js/sweetalert.min.js') ?>"></script>
     <script type="text/javascript" src="<?= base_url('backend/files/assets/js/modal.js') ?>"></script>
     <!-- modalEffects js nifty modal window effects -->
     <script type="text/javascript" src="<?= base_url('backend/files/assets/js/modalEffects.js') ?>"></script>
@@ -506,19 +458,19 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-    gtag('config', 'UA-23581568-13');
+        gtag('config', 'UA-23581568-13');
     </script>
     <script>
-    $('#datatable').DataTable({
-        responsive: true
-    });
+        $('#datatable').DataTable({
+            responsive: true
+        });
     </script>
 </body>
 

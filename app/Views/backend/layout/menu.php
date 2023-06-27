@@ -5,7 +5,7 @@
 <div class="pcoded-navigatio-lavel">Navigation</div>
 <ul class="pcoded-item pcoded-left-item">
     <li class="active">
-        <a href="<?= site_url('layout'); ?>">
+        <a href="<?php echo site_url('layout'); ?>">
             <span class="pcoded-micon"><i class="feather icon-home"></i></span>
             <span class="pcoded-mtext">Dashboard</span>
         </a>
@@ -31,6 +31,21 @@
                     <span class="pcoded-mtext">Cars Detail</span>
                 </a>
             </li>
+            <!-- <li class=" ">
+                                            <a href="<?php echo site_url('backend/product/product-feature'); ?>">
+                                                <span class="pcoded-mtext">Product Feature</span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="<?php echo site_url('backend/product/product-specification'); ?>">
+                                                <span class="pcoded-mtext">Product Specifications</span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="<?php echo site_url('backend/product/product-gallery'); ?>">
+                                                <span class="pcoded-mtext">Product Gallery</span>
+                                            </a>
+                                        </li> -->
         </ul>
     </li>
     <li class="pcoded-hasmenu">
@@ -56,7 +71,7 @@
             <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
             <span class="pcoded-mtext">Rental</span>
         </a>
-    <!-- </li>
+    </li>
     <li class="pcoded-hasmenu">
         <a href="javascript:void(0)">
             <span class="pcoded-micon"><i class="feather icon-edit"></i></span>
@@ -64,62 +79,66 @@
         </a>
         <ul class="pcoded-submenu">
             <li class="">
-                <a href="<?= site_url('backend/article/news'); ?>">
+                <a href="<?php echo site_url('backend/article/news'); ?>">
                     <span class="pcoded-mtext">News</span>
                 </a>
             </li>
             <li class="">
-                <a href="<?= site_url('backend/article/event'); ?>">
+                <a href="<?php echo site_url('backend/article/event'); ?>">
                     <span class="pcoded-mtext">Event</span>
                 </a>
             </li>
             <li class=" ">
-                <a href="<?= site_url('backend/article/promo'); ?>">
+                <a href="<?php echo site_url('backend/article/promo'); ?>">
                     <span class="pcoded-mtext">Promo</span>
                 </a>
             </li>
             <li class=" ">
-                <a href="<?= site_url('backend/article/career'); ?>">
+                <a href="<?php echo site_url('backend/article/career'); ?>">
                     <span class="pcoded-mtext">Career</span>
                 </a>
             </li>
         </ul>
     </li>
-</ul> -->
-<!-- <div class="pcoded-navigatio-lavel">Settings</div>
+</ul>
+<div class="pcoded-navigatio-lavel">Settings</div>
 <ul class="pcoded-item pcoded-left-item">
     <li class="">
-        <a href="<?= site_url('backend/setting/user'); ?>">
+        <a href="<?php echo site_url('backend/setting/user'); ?>">
             <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
             <span class="pcoded-mtext">Users Setting</span>
         </a>
     </li>
     <li class="">
-        <a href="<?= site_url('backend/setting/slider'); ?>">
+        <a href="<?php echo site_url('backend/setting/slider'); ?>">
             <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
             <span class="pcoded-mtext">Slider Setting</span>
         </a>
     </li>
     <li class="">
-        <a href="<?= site_url('backend/setting/pop-up'); ?>">
+        <a href="<?php echo site_url('backend/setting/pop-up'); ?>">
             <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
             <span class="pcoded-mtext">Pop Up Setting</span>
         </a>
     </li>
     <li class="">
-        <a href="<?= site_url('backend/setting/info'); ?>">
+        <a href="<?php echo site_url('backend/setting/info'); ?>">
             <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
             <span class="pcoded-mtext">Info Setting</span>
         </a>
     </li>
 
-    <li class="">
-        <a href="<?= site_url('manageuser'); ?>">
-            <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
-            <span class="pcoded-mtext">Manage User</span>
-        </a>
-    </li> -->
+    <?php if (in_groups('super-admin')) : ?>
+
+        <li class="">
+            <a href="<?php echo site_url('manageuser'); ?>">
+                <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
+                <span class="pcoded-mtext">Manage User</span>
+            </a>
+        </li>
+
+    <?php endif; ?>
 
 </ul>
 
-<?= $this->endSection()  ?>
+<?= $this->endSection(' ')  ?>

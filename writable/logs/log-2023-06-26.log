@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+INFO - 2023-06-26 02:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-26 02:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-26 02:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-26 02:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-26 02:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-26 02:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-26 02:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-26 02:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-26 02:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+=======
 INFO - 2023-06-26 16:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 WARNING - 2023-06-26 16:01:39 --> [DEPRECATED] Creation of dynamic property IonAuth\Libraries\IonAuth::$session is deprecated in VENDORPATH\benedmunds\codeigniter-ion-auth\Libraries\IonAuth.php on line 65.
  1 VENDORPATH\benedmunds\codeigniter-ion-auth\Controllers\Auth.php(73): IonAuth\Libraries\IonAuth->__construct()
@@ -5601,3 +5612,4 @@ WARNING - 2023-06-26 17:37:00 --> [DEPRECATED] Creation of dynamic property IonA
  5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\uasweb\\Car-rent\\public\\index.php')
+>>>>>>> 3f710eef10b4eff583af6348699dda97063290e7
