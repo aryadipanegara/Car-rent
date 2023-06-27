@@ -14,7 +14,8 @@
 6. Faris Maulana - Peran:
   
 
-1. **Rental Mobil Menggunakan Codeigniter 4**
+
+**Rental Mobil Menggunakan Codeigniter 4**
    - Deskripsi: 
    
 
