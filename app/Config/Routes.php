@@ -34,14 +34,9 @@ $routes->setAutoRoute(true);
 
 
 $routes->get('/', 'Home::index');
-<<<<<<< HEAD
-<<<<<<< HEAD
 $routes->get('/admin', 'Layout::index', ['filter' => 'role:admin,super-admin']);
 $routes->get('/manageuser', 'ManageUser::index', ['filter' => 'role:super-admin']);
 $routes->get('/manageuser/index', 'ManageUser::index', ['filter' => 'role:super-admin']);
-=======
-=======
->>>>>>> 7494b100a57de8643c2bda0d34f01f1b0de33cd1
 
 $routes->group('admin', function ($routes) {
 	$routes->get('/', 'Layout::index');
@@ -49,11 +44,6 @@ $routes->group('admin', function ($routes) {
 	$routes->post('login', 'Admin\Login::login');
 	$routes->get('logout', 'Admin\Login::logout');
 });
-<<<<<<< HEAD
->>>>>>> 7494b100a57de8643c2bda0d34f01f1b0de33cd1
-=======
->>>>>>> 7494b100a57de8643c2bda0d34f01f1b0de33cd1
-
 $routes->group('manageuser', function ($routes) {
 	$routes->get('/', 'ManageUser::index');
 	$routes->get('index', 'ManageUser::index');
@@ -71,11 +61,6 @@ $routes->get('admin/login', 'Admin\Login::index');
 $routes->post('admin/login', 'Admin\Login::login');
 $routes->get('admin/logout', 'Admin\Login::logout');
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 7494b100a57de8643c2bda0d34f01f1b0de33cd1
 $routes->group('auth', ['namespace' => 'IonAuth\Controllers'], function ($routes) {
 	$routes->add('login', 'Auth::login');
 	$routes->get('logout', 'Auth::logout');
@@ -91,7 +76,6 @@ $routes->group('auth', ['namespace' => 'IonAuth\Controllers'], function ($routes
 	// $routes->post('reset_password/(:hash)', 'Auth::reset_password/$1');
 	// ...
 });
->>>>>>> 7494b100a57de8643c2bda0d34f01f1b0de33cd1
 
 
 // routes.php
