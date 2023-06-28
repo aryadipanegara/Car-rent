@@ -175,22 +175,7 @@
                                 </div>
                             </li>
                             <li class="user-profile header-notification">
-                                <div class="dropdown-primary dropdown">
-                                    <div class="dropdown-toggle" data-toggle="dropdown">
-                                        <?php if (session('user') && isset(session('user')['image'])) : ?>
-                                            <img src="<?= base_url(); ?>/backend/files/assets/images/<?= session('user')['image']; ?>" class="img-radius" alt="User-Profile-Image">
-                                        <?php else : ?>
-                                            <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20stroke%3D%22currentColor%22%20fill%3D%22currentColor%22%20stroke-width%3D%220%22%20viewBox%3D%220%200%2024%2024%22%20height%3D%221em%22%20width%3D%221em%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M12%2014V22H4C4%2017.5817%207.58172%2014%2012%2014ZM12%2013C8.685%2013%206%2010.315%206%207C6%203.685%208.685%201%2012%201C15.315%201%2018%203.685%2018%207C18%2010.315%2015.315%2013%2012%2013ZM21%2017H22V22H14V17H15V16C15%2014.3431%2016.3431%2013%2018%2013C19.6569%2013%2021%2014.3431%2021%2016V17ZM19%2017V16C19%2015.4477%2018.5523%2015%2018%2015C17.4477%2015%2017%2015.4477%2017%2016V17H19Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E" class="img-radius" alt="Default-Image">
-                                        <?php endif; ?>
-                                        <?php if (session('user') && isset(session('user')['fullname'])) : ?>
-                                            <span><?= session('user')['fullname']; ?></span>
-                                        <?php else : ?>
-                                            <span>ADMIN</span>
-                                        <?php endif; ?>
-                                        <i class="feather icon-chevron-down"></i>
-                                    </div>
-                                    <!-- Dropdown menu items -->
-                                </div>
+                                
 
 
                                 <ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
