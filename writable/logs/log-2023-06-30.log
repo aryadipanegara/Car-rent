@@ -1,0 +1,540 @@
+INFO - 2023-06-30 05:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 05:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:11:10 --> include(includes/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 88.
+ 1 APPPATH\Views\auth\login.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(includes/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 88)
+ 2 APPPATH\Views\auth\login.php(88): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:12:13 --> include(\includes\scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 88.
+ 1 APPPATH\Views\auth\login.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(\\includes\\scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 88)
+ 2 APPPATH\Views\auth\login.php(88): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:12:14 --> include(\includes\scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 88.
+ 1 APPPATH\Views\auth\login.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(\\includes\\scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 88)
+ 2 APPPATH\Views\auth\login.php(88): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:12:44 --> include(../../../public/include/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 88.
+ 1 APPPATH\Views\auth\login.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../../public/include/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 88)
+ 2 APPPATH\Views\auth\login.php(88): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:12:50 --> include(../../../public/include/scripts): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 88.
+ 1 APPPATH\Views\auth\login.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../../public/include/scripts): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 88)
+ 2 APPPATH\Views\auth\login.php(88): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:12:50 --> include(../../../public/include/scripts): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 88.
+ 1 APPPATH\Views\auth\login.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../../public/include/scripts): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 88)
+ 2 APPPATH\Views\auth\login.php(88): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:13:04 --> include(/includes/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 88.
+ 1 APPPATH\Views\auth\login.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/includes/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 88)
+ 2 APPPATH\Views\auth\login.php(88): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:13:04 --> include(/includes/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 88.
+ 1 APPPATH\Views\auth\login.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/includes/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 88)
+ 2 APPPATH\Views\auth\login.php(88): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:21:50 --> include(includes/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 88.
+ 1 APPPATH\Views\auth\login.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(includes/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 88)
+ 2 APPPATH\Views\auth\login.php(88): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:22:18 --> include(includes/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 88.
+ 1 APPPATH\Views\auth\login.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(includes/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 88)
+ 2 APPPATH\Views\auth\login.php(88): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:22:19 --> include(includes/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 88.
+ 1 APPPATH\Views\auth\login.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(includes/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 88)
+ 2 APPPATH\Views\auth\login.php(88): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:22:35 --> include(includes/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 86.
+ 1 APPPATH\Views\auth\login.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(includes/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 86)
+ 2 APPPATH\Views\auth\login.php(86): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:24:50 --> include(includes/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 86.
+ 1 APPPATH\Views\auth\login.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(includes/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 86)
+ 2 APPPATH\Views\auth\login.php(86): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:24:51 --> include(includes/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 86.
+ 1 APPPATH\Views\auth\login.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(includes/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 86)
+ 2 APPPATH\Views\auth\login.php(86): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:24:51 --> include(includes/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 86.
+ 1 APPPATH\Views\auth\login.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(includes/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 86)
+ 2 APPPATH\Views\auth\login.php(86): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:24:51 --> include(includes/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 86.
+ 1 APPPATH\Views\auth\login.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(includes/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 86)
+ 2 APPPATH\Views\auth\login.php(86): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:24:52 --> include(includes/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 86.
+ 1 APPPATH\Views\auth\login.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(includes/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 86)
+ 2 APPPATH\Views\auth\login.php(86): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:25:14 --> include(\includes/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 86.
+ 1 APPPATH\Views\auth\login.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(\\includes/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 86)
+ 2 APPPATH\Views\auth\login.php(86): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:26:19 --> include(../includes/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 86.
+ 1 APPPATH\Views\auth\login.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../includes/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 86)
+ 2 APPPATH\Views\auth\login.php(86): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:26:20 --> include(../includes/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 86.
+ 1 APPPATH\Views\auth\login.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../includes/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 86)
+ 2 APPPATH\Views\auth\login.php(86): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:26:20 --> include(../includes/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 86.
+ 1 APPPATH\Views\auth\login.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../includes/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 86)
+ 2 APPPATH\Views\auth\login.php(86): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:26:21 --> include(../includes/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 86.
+ 1 APPPATH\Views\auth\login.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../includes/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 86)
+ 2 APPPATH\Views\auth\login.php(86): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:26:22 --> include(../includes/scripts.php): Failed to open stream: No such file or directory
+in APPPATH\Views\auth\login.php on line 86.
+ 1 APPPATH\Views\auth\login.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../includes/scripts.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php', 86)
+ 2 APPPATH\Views\auth\login.php(86): include()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include('C:\\xampp\\htdocs\\Car-rent\\app\\Views\\auth\\login.php')
+ 4 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:53:29 --> Undefined variable $login
+in VENDORPATH\myth\auth\src\Controllers\AuthController.php on line 69.
+ 1 VENDORPATH\myth\auth\src\Controllers\AuthController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $login', 'C:\\xampp\\htdocs\\Car-rent\\vendor\\myth\\auth\\src\\Controllers\\AuthController.php', 69)
+ 2 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->attemptLogin()
+ 3 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 06:57:50 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\v_home.php on line 197.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_home', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('v_home')
+ 4 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-30 06:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 06:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

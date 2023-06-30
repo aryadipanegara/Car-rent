@@ -34,9 +34,7 @@ $routes->setAutoRoute(true);
 
 
 $routes->get('/', 'Home::index');
-$routes->get('/admin', 'Layout::index', ['filter' => 'role:admin,super-admin']);
-$routes->get('/manageuser', 'ManageUser::index', ['filter' => 'role:super-admin']);
-$routes->get('/manageuser/index', 'ManageUser::index', ['filter' => 'role:super-admin']);
+$routes->get('/admin', 'Layout::index', ['filter' => 'role:admin']);
 
 $routes->group('admin', function ($routes) {
 	$routes->get('/', 'Layout::index');

@@ -1,0 +1,103 @@
+INFO - 2023-06-29 12:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 12:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 12:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 12:11:17 --> Call to undefined function in_groups()
+in APPPATH\Views\layout\main.php on line 88.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(240): CodeIgniter\View\View->render('layout/main', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 5 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-29 12:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 12:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 12:11:21 --> Call to undefined function in_groups()
+in APPPATH\Views\layout\main.php on line 88.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(240): CodeIgniter\View\View->render('layout/main', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 5 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-29 12:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 12:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 12:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 12:12:36 --> Call to undefined function in_groups()
+in APPPATH\Views\layout\main.php on line 88.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(240): CodeIgniter\View\View->render('layout/main', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 5 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-29 12:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 12:21:49 --> Call to undefined function in_groups()
+in APPPATH\Views\layout\main.php on line 88.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(240): CodeIgniter\View\View->render('layout/main', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 5 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-29 12:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 12:21:49 --> Call to undefined function in_groups()
+in APPPATH\Views\layout\main.php on line 88.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(240): CodeIgniter\View\View->render('layout/main', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 5 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-29 12:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 12:22:03 --> Call to undefined function in_groups()
+in APPPATH\Views\layout\main.php on line 88.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(240): CodeIgniter\View\View->render('layout/main', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 5 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')
+INFO - 2023-06-29 12:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 12:22:04 --> Call to undefined function in_groups()
+in APPPATH\Views\layout\main.php on line 88.
+ 1 VENDORPATH\codeigniter4\framework\system\View\View.php(224): include()
+ 2 VENDORPATH\codeigniter4\framework\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 VENDORPATH\codeigniter4\framework\system\View\View.php(240): CodeIgniter\View\View->render('layout/main', [], true)
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\App\\Views\\Auth\\login', [], true)
+ 5 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\App\\Views\\Auth\\login', [...])
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth\\login', [...])
+ 7 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(932): Myth\Auth\Controllers\AuthController->login()
+ 8 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 VENDORPATH\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 VENDORPATH\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Car-rent\\public\\index.php')

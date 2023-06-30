@@ -72,56 +72,34 @@
             <span class="pcoded-mtext">Rental</span>
         </a>
     </li>
-    <li class="pcoded-hasmenu">
-        <a href="javascript:void(0)">
-            <span class="pcoded-micon"><i class="feather icon-edit"></i></span>
-            <span class="pcoded-mtext">Articles</span>
-        </a>
-        <ul class="pcoded-submenu">
-            <li class="">
-                <a href="<?php echo site_url('backend/article/news'); ?>">
-                    <span class="pcoded-mtext">News</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="<?php echo site_url('backend/article/event'); ?>">
-                    <span class="pcoded-mtext">Event</span>
-                </a>
-            </li>
-            <li class=" ">
-                <a href="<?php echo site_url('backend/article/promo'); ?>">
-                    <span class="pcoded-mtext">Promo</span>
-                </a>
-            </li>
-            <li class=" ">
-                <a href="<?php echo site_url('backend/article/career'); ?>">
-                    <span class="pcoded-mtext">Career</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-</ul>
 <div class="pcoded-navigatio-lavel">Settings</div>
 <ul class="pcoded-item pcoded-left-item">
+<li class="">
+        <a href="<?php echo site_url(''); ?>">
+            <span class="pcoded-micon"><i></i></span>
+            <span class="pcoded-mtext">Profil</span>
+        </a>
+    </li>
     <li class="">
-        <a href="<?= base_url('logout'); ?>">
-            <span class="pcoded-micon"><i><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M17 8l-1.41 1.41L17.17 11H9v2h8.17l-1.58 1.58L17 16l4-4-4-4zM5 5h7V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h7v-2H5V5z"></path></svg></i></span>
+        <a href="<?php echo site_url('logout'); ?>">
+            <span class="pcoded-micon"><i><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="20px"
+                                        padding="0" width="20px" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2"></path><path d="M9 12h12l-3 -3"></path><path d="M18 15l3 -3"></path></svg></i></span>
             <span class="pcoded-mtext">Logout</span>
         </a>
     </li>
-   
 
-    <?php if (in_groups('super-admin')) : ?>
+ <?php if (in_groups('admin', true)) : ?>
 
-        <li class="">
-            <a href="<?php echo site_url('manageuser'); ?>">
-                <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
-                <span class="pcoded-mtext">Manage User</span>
-            </a>
-        </li>
+    <li class="">
+        <a href="<?php echo site_url('Layout'); ?>">
+            <span class="pcoded-micon"><i class="feather icon-sliders"></i></span>
+            <span class="pcoded-mtext">Manage User</span>
+        </a>
+    </li>
 
-    <?php endif; ?>
+<?php endif; ?>
+
 
 </ul>
 
-<?= $this->endSection(' ')  ?>  
+<?= $this->endSection(' ')  ?>

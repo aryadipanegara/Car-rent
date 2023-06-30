@@ -44,5 +44,16 @@
         </div>
     </div>
 </div>
-
+<?php if (session()->getFlashdata('loginSuccess')): ?>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        Swal.fire({
+            position: 'top-center',
+            icon: 'success',
+            title: 'Log-in Success',
+            showConfirmButton: false,
+            timer: 1500
+        });
+    </script>
+    <?php endif; ?>
 <?= $this->endSection('')  ?>

@@ -1,41 +1,88 @@
 <?= $this->extend('layout/main')  ?>
 <?= $this->section('content')  ?>
 
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 <div class="container">
-    <div class="row">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-6">
-        <form action="<?= url_to('login') ?>" method="post"><?= csrf_field() ?>
+	<div class="row">
+		<div class="col-sm-6 offset-sm-3">
+			<br>
+          <br>
+          <br>
+          <br>
+          <br>
+			<div class="card">
+				<h2 class="card-header"><?=lang('Auth.loginTitle')?></h2>
+				<div class="card-body" >
 
-                
-                <div class="mb-3" style="margin-top:150px;">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" name="email" class="form-control" id="exampleInputEmail1"
-                        aria-describedby="emailHelp" placeholder="Enter Your Email">
-                    <div id="emailHelp" class="form-text"></div>
+					<?= view('Myth\Auth\Views\_message_block') ?>
 
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="text" name="password" class="form-control" id="exampleInputPassword1"
-                        placeholder="Enter Your Password">
+					<form action="<?= url_to('login') ?>" method="post">
+						<?= csrf_field() ?>
 
-                </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-                    <label class="form-check-label" for="exampleCheck1">I accept the terms of the licence
-                        agreement</label>
+						<?php if ($config->validFields === ['email']): ?>
+						<div class="form-group">
+							<label for="login"><?=lang('Auth.email')?></label>
+							<input type="email" class="form-control <?php if (session('errors.login')) : ?>is-invalid<?php endif ?>"
+								   name="login" placeholder="<?=lang('Auth.email')?>">
+							<div class="invalid-feedback">
+								<?= session('errors.login') ?>
+							</div>
+						</div>
+							<?php else: ?>
+						<div class="form-group">
+							<label for="login"><?=lang('Auth.emailOrUsername')?></label>
+							<input type="text" class="form-control <?php if (session('errors.login')) : ?>is-invalid<?php endif ?>"
+								   name="login" placeholder="<?=lang('Auth.emailOrUsername')?>">
+							<div class="invalid-feedback">
+								<?= session('errors.login') ?>
+							</div>
+						</div>
+								<?php endif; ?>
 
-                </div>
-                <div class="text-center">
-                    <button type="submit" class="btn btn-primary mt-3 mb-4">Submit</button>
-                </div>
-            </form>
-        </div>
-        <div class="col-sm-3"></div>
-    </div>
+						<div class="form-group">
+							<label for="password"><?=lang('Auth.password')?></label>
+							<input type="password" name="password" class="form-control  <?php if (session('errors.password')) : ?>is-invalid<?php endif ?>" placeholder="<?=lang('Auth.password')?>">
+							<div class="invalid-feedback">
+								<?= session('errors.password') ?>
+							</div>
+						</div>
+
+						<?php if ($config->allowRemembering): ?>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input type="checkbox" name="remember" class="form-check-input" <?php if (old('remember')) : ?> checked <?php endif ?>>
+								<?=lang('Auth.rememberMe')?>
+							</label>
+						</div>
+						<?php endif; ?>
+
+						<br>
+
+						<button type="submit" class="btn btn-primary btn-block"><?=lang('Auth.loginAction')?></button>
+					</form>
+
+					<hr>
+
+					<?php if ($config->allowRegistration) : ?>
+					<p><a href="<?= url_to('register') ?>"><?=lang('Auth.needAnAccount')?></a></p>
+					<?php endif; ?>
+						<?php if ($config->activeResetter): ?>
+					<p><a href="<?= url_to('forgot') ?>"><?=lang('Auth.forgotYourPassword')?></a></p>
+					 	<?php endif; ?>
+				</div>
+			</div>
+            <br>
+            <br>
+		</div>
+	</div>
 </div>
 
-
-<?= $this->endSection()  ?>
+<?= $this->endSection() ?>
+</body>
+</html>
