@@ -82,7 +82,7 @@
 		</div>
 	</div>
 </div>
-
+					
 <?= $this->endSection() ?>
 </body>
 </html>

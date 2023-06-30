@@ -81,12 +81,52 @@
                                             d="M12 6c-1.93 0-3.5 1.57-3.5 3.5S10.07 13 12 13s3.5-1.57 3.5-3.5S13.93 6 12 6zm0 5c-.83 0-1.5-.67-1.5-1.5S11.17 8 12 8s1.5.67 1.5 1.5S12.83 11 12 11z">
                                         </path>
                                     </svg></a>
-                                    <li class="nav-item">
-                                        
-                                <a class="nav-link" href="<?= base_url('logout'); ?>"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="20px"
-                                        padding="0" width="20px" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2"></path><path d="M9 12h12l-3 -3"></path><path d="M18 15l3 -3"></path></svg></a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0);" onclick="showConfirmation()">
+                                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                        stroke-linecap="round" stroke-linejoin="round" height="20px" padding="0"
+                                        width="20px" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2">
+                                        </path>
+                                        <path d="M9 12h12l-3 -3"></path>
+                                        <path d="M18 15l3 -3"></path>
+                                    </svg>
+                                </a>
                             </li>
-                            
+
+                            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+                            <script>
+                            function showConfirmation() {
+                                Swal.fire({
+                                    title: 'Are you sure?',
+                                    text: "Are you sure you want to log out?",
+                                    icon: 'warning',
+                                    showCancelButton: true,
+                                    confirmButtonColor: '#3085d6',
+                                    cancelButtonColor: '#d33',
+                                    confirmButtonText: 'Yes, log out'
+                                }).then((result) => {
+                                    if (result.isConfirmed) {
+                                        Swal.fire(
+                                            'Logged Out',
+                                            'You have been logged out.',
+                                            'success'
+                                        ).then(() => {
+                                            // Kode logout di sini
+                                            window.location.href = "<?= base_url('logout'); ?>";
+                                        });
+                                    }
+                                });
+                            }
+                            </script>
+
+
+                            </script>
+
+
+
                         </ul>
                         </ul>
                     </div>

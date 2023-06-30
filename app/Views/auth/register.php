@@ -3,37 +3,63 @@
 <?= $this->section('content') ?>
 
 <div class="container">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<div class="container">
     <div class="row">
-        <div class="col-sm-3"></div>
-        <?= view('Myth\Auth\Views\_message_block') ?>
-        <div class="col-sm-6">
-            
-        <form action="<?= url_to('register') ?>" method="post">
+        <div class="col-sm-6 offset-sm-3">
+
+            <div class="card">
+                <h2 class="card-header"><?=lang('Auth.register')?></h2>
+                <div class="card-body">
+
+                    <?= view('Myth\Auth\Views\_message_block') ?>
+
+                    <form action="<?= url_to('register') ?>" method="post">
                         <?= csrf_field() ?>
-                <div class="mb-3" style="margin-top:150px;">
-                <label class="" for="email"><?=lang('Auth.email')?></label>
-                    <input type="email" name="email" class="form-control"  name="email" autocomplete="off" aria-describedby="emailHelp" placeholder="<?=lang('Auth.email')?>" value="<?= old('email') ?>" <?php if (session('errors.email')) : ?>is-invalid<?php endif ?>>
+
+                        <div class="form-group">
+                            <label for="email"><?=lang('Auth.email')?></label>
+                            <input type="email" class="form-control <?php if (session('errors.email')) : ?>is-invalid<?php endif ?>"
+                                   name="email" aria-describedby="emailHelp" placeholder="<?=lang('Auth.email')?>" value="<?= old('email') ?>">
+                            <small id="emailHelp" class="form-text text-muted"><?=lang('Auth.weNeverShare')?></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="username"><?=lang('Auth.username')?></label>
+                            <input type="text" class="form-control <?php if (session('errors.username')) : ?>is-invalid<?php endif ?>" name="username" placeholder="<?=lang('Auth.username')?>" value="<?= old('username') ?>">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password"><?=lang('Auth.password')?></label>
+                            <input type="password" name="password" class="form-control <?php if (session('errors.password')) : ?>is-invalid<?php endif ?>" placeholder="<?=lang('Auth.password')?>" autocomplete="off">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pass_confirm"><?=lang('Auth.repeatPassword')?></label>
+                            <input type="password" name="pass_confirm" class="form-control <?php if (session('errors.pass_confirm')) : ?>is-invalid<?php endif ?>" placeholder="<?=lang('Auth.repeatPassword')?>" autocomplete="off">
+                        </div>
+
+                        <br>
+
+                        <button type="submit" class="btn btn-primary btn-block"><?=lang('Auth.register')?></button>
+                    </form>
+
+
+                    <hr>
+
+                    <p></a><?=lang('Auth.alreadyRegistered')?> <a href="<?= url_to('login') ?>"><?=lang('Auth.signIn')?></a></p>
                 </div>
-                
-                <div class="mb-3">
-                    <label for="username" class="form-label"></label>
-                    <input type="text" class="form-control <?php if (session('errors.username')) : ?>is-invalid<?php endif ?>" name="username" placeholder="<?=lang('Auth.username')?>" value="<?= old('username') ?>" autocomplete="off">
-                </div>
-                
-                <div class="mb-3">
-                    <label for="password" class="form-label"><?=lang('Auth.password')?></label>
-                    <input type="password" name="password" class="form-control <?php if (session('errors.password')) : ?>is-invalid<?php endif ?>" autocomplete="off" placeholder="<?=lang('Auth.password')?>" >
-                </div>
-                <div class="mb-3">
-                    <label for="repeatPassword" class="form-label"><?=lang('Auth.repeatPassword')?></label>
-                    <input type="password" name="pass_confirm" class="form-control <?php if (session('errors.pass_confirm')) : ?>is-invalid<?php endif ?>" autocomplete="off" placeholder="<?=lang('Auth.repeatPassword')?>">
-                </div>
-                
-                <button type="submit" class="btn btn-primary mt-3 mb-4">Submit</button>
-            </form>
+            </div>
+
         </div>
-        <div class="col-sm-3"></div>
     </div>
+    <br>
+</div>
 </div>
 
 <?= $this->endSection() ?>

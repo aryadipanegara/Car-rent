@@ -9,7 +9,8 @@ class Checkout extends BaseController
     public function index($id)
     {
         $model = new Product_model();
-        $data['rental'] = $model->getProductDetail($id);
+        $data['db_rentalmobil'] = $model->getProductDetail($id);
         return view('v_checkout', $data);
     }
+    
 }

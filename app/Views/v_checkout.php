@@ -3,7 +3,7 @@
 <?= $this->section('content')  ?>
 <?php foreach ($productdetail as $row) : ?>
 <form action="<?= base_url('product/save/' . $row['mobil_id'] . '/' . $row['mobil_id']) ?>" method="POST" id="rental">
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <div class="container">
         <div class="row">
             <div class="col-sm-3"></div>
@@ -21,7 +21,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Lama</label>
-                    <input type="text" name="lama" class="form-control lama" id="lama" placeholder="Enter Your Address">
+                    <input type="text" name="lama" class="form-control lama" id="lama" placeholder="Berapa Lama">
                 </div>
                 <input type="hidden" name="harga" class="harga" id="harga" value="<?= $row['mobil_harga_sewa']; ?>">
                 <input type="hidden" name="total" class="total" id="total">
@@ -67,11 +67,15 @@
 
 <script>
 $('#lama').on('change', function() {
-    var lama = ($('#lama').val());
-    var harga = ($('#harga').val());
+    var lama = $('#lama').val();
+    var harga = $('#harga').val();
+
+    console.log('lama:', lama);
+    console.log('harga:', harga);
 
     var total = harga * lama;
     $('#total').val(total);
 });
+
 </script>
 <?= $this->endSection('')  ?>

@@ -23,8 +23,8 @@
                         <li><i class="ion-android-checkbox-outline"></i>Capacity - <?= $row['mobil_kapasitas']; ?></li>
                         <li><i class="ion-android-checkbox-outline"></i>Price - <?= $row['mobil_harga_sewa']; ?></li>
                     </ul>
-                    <a href="<?= base_url('product/checkout/' . $row['mobil_id'])  ?>" class="btn btn-primary btn-action btn-fill">Rental With Driver</a>
-                    <a href="/checkout" class="btn btn-primary btn-action btn-fill">Rental Without Driver</a>
+                    <a href="<?= base_url('product/checkout/' . $row['mobil_id'])  ?>" class="btn btn-primary btn-action btn-fill">Rental</a>
+                    <!-- <a href="/checkout" class="btn btn-primary btn-action btn-fill">Rental Without Driver</a> -->
                 <?php endforeach; ?>
                 </div>
             </div>
