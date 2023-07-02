@@ -3,7 +3,7 @@
 <?= $this->section('content')  ?>
 <?php foreach ($productdetail as $row) : ?>
 <form action="<?= base_url('product/save/' . $row['mobil_id'] . '/' . $row['mobil_id']) ?>" method="POST" id="rental">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <div class="container">
         <div class="row">
             <div class="col-sm-3"></div>
@@ -76,6 +76,5 @@ $('#lama').on('change', function() {
     var total = harga * lama;
     $('#total').val(total);
 });
-
 </script>
 <?= $this->endSection('')  ?>

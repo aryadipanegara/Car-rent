@@ -60,10 +60,6 @@ $routes->group('auth', ['namespace' => 'IonAuth\Controllers'], function ($routes
 });
 
 
-// routes.php
-
-$routes->get('price list', 'PriceList::index');
-$routes->post('price list', 'PriceList::generatePdf');
 
 
 

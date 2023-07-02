@@ -3,6 +3,18 @@
 
 <?= $this->section('isi') ?>
 
+<?php
+session_start(); // Pastikan memulai sesi sebelum menggunakan $_SESSION
+
+// Periksa apakah pengguna telah login
+if (!isset($_SESSION['user_id'])) {
+    // Pengguna belum login, redirect ke halaman login
+    header('Location: ' . base_url('login'));
+    exit();
+}
+?>
+
+
 <div class="alert alert-primary background-primary">
     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <i class="icofont icofont-close-line-circled"></i>

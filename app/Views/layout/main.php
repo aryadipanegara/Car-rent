@@ -81,6 +81,16 @@
                                             d="M12 6c-1.93 0-3.5 1.57-3.5 3.5S10.07 13 12 13s3.5-1.57 3.5-3.5S13.93 6 12 6zm0 5c-.83 0-1.5-.67-1.5-1.5S11.17 8 12 8s1.5.67 1.5 1.5S12.83 11 12 11z">
                                         </path>
                                     </svg></a>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="<?= base_url('layout'); ?>"><svg stroke="currentColor"
+                                        fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="20px"
+                                        padding="0" width="20px" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 14V22H4C4 17.5817 7.58172 14 12 14ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13ZM21 17H22V22H14V17H15V16C15 14.3431 16.3431 13 18 13C19.6569 13 21 14.3431 21 16V17ZM19 17V16C19 15.4477 18.5523 15 18 15C17.4477 15 17 15.4477 17 16V17H19Z">
+                                        </path>
+                                    </svg></a>
+
                             <li class="nav-item">
                                 <a class="nav-link" href="javascript:void(0);" onclick="showConfirmation()">
                                     <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
@@ -95,6 +105,7 @@
                                     </svg>
                                 </a>
                             </li>
+
 
                             <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
                             <script>
