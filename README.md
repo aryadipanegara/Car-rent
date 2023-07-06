@@ -10,7 +10,7 @@ Anggota Kelompok:
 - Sara Khusnul Mumtazah 
 - Wildan Muhammad Fauzan
 - Faris Maulana
-## Deskripsi
+## Langkah - langkah
 Langkah - langkah untuk menggunakan layanan sewa mobil
 
 1. Carilah daftar mobil populer yang tersedia untuk disewa, termasuk Audi, Porsche, Bugatti, dan Taycan.
