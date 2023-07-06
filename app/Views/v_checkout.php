@@ -35,22 +35,23 @@
                 <div class="f-right">
                     <div class="right-content wow fadeInUp" data-wow-delay="0.2s">
                         <p>
-                            Check the data again before pressing the Order button.
+                            Periksa kembali data sebelum menekan tombol Pesan.
                         </p>
                         <ul>
-                            <li><i class="ion-android-checkbox-outline"></i>Plat Number -
+                            <li><i class="ion-android-checkbox-outline"></i>Nomor Plat -
                                 <?= $row['mobil_no_polisi']; ?></li>
-                            <li><i class="ion-android-checkbox-outline"></i>Brand - <?= $row['merk_nama']; ?></li>
-                            <li><i class="ion-android-checkbox-outline"></i>Type - <?= $row['jenis_nama']; ?></li>
-                            <li><i class="ion-android-checkbox-outline"></i>Years - <?= $row['mobil_tahun']; ?></li>
-                            <li><i class="ion-android-checkbox-outline"></i>Capacity - <?= $row['mobil_kapasitas']; ?>
+                            <li><i class="ion-android-checkbox-outline"></i>Merek - <?= $row['merk_nama']; ?></li>
+                            <li><i class="ion-android-checkbox-outline"></i>Tipe - <?= $row['jenis_nama']; ?></li>
+                            <li><i class="ion-android-checkbox-outline"></i>Tahun - <?= $row['mobil_tahun']; ?></li>
+                            <li><i class="ion-android-checkbox-outline"></i>Kapasitas - <?= $row['mobil_kapasitas']; ?>
                             </li>
-                            <li><i class="ion-android-checkbox-outline"></i>Price - <?= $row['mobil_harga_sewa']; ?>
+                            <li><i class="ion-android-checkbox-outline"></i>Harga - <?= $row['mobil_harga_sewa']; ?>
                             </li>
-                            <li><i class="ion-android-checkbox-outline"></i>Quantity - 1</li>
+                            <li><i class="ion-android-checkbox-outline"></i>Jumlah - 1</li>
                         </ul>
-                        <button class="btn btn-primary btn-action btn-fill">Order</button>
-                        <button class="btn btn-primary btn-action btn-fill">Cancel</button>
+                        <button class="btn btn-primary btn-action btn-fill">Pesan</button>
+
+                        <button class="btn btn-primary btn-action btn-fill">Batal</button>
                     </div>
                 </div>
                 <div class="f-left">
@@ -77,4 +78,14 @@ $('#lama').on('change', function() {
     $('#total').val(total);
 });
 </script>
-<?= $this->endSection('')  ?>
+<?= $this->endSection('') ?>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+Swal.fire({
+    position: 'top-center',
+    icon: 'success',
+    title: 'Order Berhasil',
+    showConfirmButton: false,
+    timer: 1500
+});
+</script>

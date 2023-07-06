@@ -83,7 +83,7 @@
                                     </svg></a>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="<?= base_url('layout'); ?>"><svg stroke="currentColor"
+                                <a class="nav-link" href="<?= site_url('layout'); ?>"><svg stroke="currentColor"
                                         fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="20px"
                                         padding="0" width="20px" xmlns="http://www.w3.org/2000/svg">
                                         <path

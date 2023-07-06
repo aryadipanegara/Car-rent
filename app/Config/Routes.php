@@ -60,9 +60,6 @@ $routes->group('auth', ['namespace' => 'IonAuth\Controllers'], function ($routes
 });
 
 
-
-
-
 /**
  * --------------------------------------------------------------------
  * Additional Routing
