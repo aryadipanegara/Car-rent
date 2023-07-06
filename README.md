@@ -10,7 +10,15 @@ Anggota Kelompok:
 - Sara Khusnul Mumtazah 
 - Wildan Muhammad Fauzan
 - Faris Maulana
+## Deskripsi
+Langkah - langkah untuk menggunakan layanan sewa mobil
 
+1. Carilah daftar mobil populer yang tersedia untuk disewa, termasuk Audi, Porsche, Bugatti, dan Taycan.
+2. Pilih paket yang sesuai dengan kebutuhan, situs ini menawarkan dua paket berbeda yaitu Paket Super dan Paket Lengkap.
+3. Jika anda memilih paket lengkap, klik tombol "Pesan Sekarang" dan pilih apakah anda ingin layanan setir sendiri atau supir.
+4. Tunggu layanan sewa mobil untuk mengkonfirmasi reservasi anda.
+5. Ambil mobil di lokasi yang ditentukan dan nikmati sewa anda.
+   
 ## Deskripsi Proyek
 Rental Mobil Menggunakan CodeIgniter 4
 
