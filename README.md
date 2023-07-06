@@ -4,12 +4,12 @@ Ini adalah sebuah proyek rental mobil yang dibangun menggunakan framework CodeIg
 
 ## Tugas UAS Pemograman Web
 Anggota Kelompok:
-- Muhammad Arya Dipanegara Gunawan  
-- Kevin Suyadi Ritonga 
-- Zaini Muhtarom
-- Sara Khusnul Mumtazah 
-- Wildan Muhammad Fauzan
-- Faris Maulana
+- 312110396 - Muhammad Arya Dipanegara Gunawan  
+- 312110081 - Kevin Suyadi Ritonga 
+- 312110294 - Zaini Muhtarom
+- 312110319 - Sara Khusnul Mumtazah 
+- 312110481 - Wildan Muhammad Fauzan
+- 31211459 - Faris Maulana
 ## Langkah - langkah
 Langkah - langkah untuk menggunakan layanan sewa mobil
 
