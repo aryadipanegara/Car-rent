@@ -81,13 +81,13 @@
                 <div class="right-content">
                     <h2>Taycan</h2>
                     <p>
-                        Guru Able is full flexible solution for your entire project development. You can easily maintain
-                        all of its module/components.
+                        Taycan adalah mobil yang sangat fleksibel untuk pengembangan seluruh proyek Anda. Anda dapat
+                        dengan mudah memelihara semua modul/komponennya.
                     </p>
                     <ul>
-                        <li><i class="ion-android-checkbox-outline"></i>Neat n clean code structure.</li>
-                        <li><i class="ion-android-checkbox-outline"></i>Flexible module structure</li>
-                        <li><i class="ion-android-checkbox-outline"></i>Copy / Paste and Ready to use</li>
+                        <li><i class="ion-android-checkbox-outline"></i> 2× AC synchronous electric motors</li>
+                        <li><i class="ion-android-checkbox-outline"></i>79.2 kWh (71.0 kWh dapat digunakan)</li>
+                        <li><i class="ion-android-checkbox-outline"></i>206,9 hingga 287,7 mi (333 hingga 463 km)</li>
                     </ul>
                     <!-- <button class="btn btn-primary btn-action btn-fill">Learn More</button> -->
                 </div>
@@ -96,14 +96,18 @@
         <div class="flex-split">
             <div class="f-right">
                 <div class="right-content wow fadeInUp" data-wow-delay="0.2s">
-                    <h2>Included Software Dependencies</h2>
+                    <h2>Bugatti</h2>
                     <p>
-                        Bower - Grunt - Sass Dependencies for easy project flow management.
+                        Mobil Ettore Bugatti adalah mobil Prancis produsen dari mobil kinerja tinggi, yang didirikan
+                        pada tahun 1909 . Mobil Bugatti yang dikenal karena keindahan desain mereka (Ettore Bugatti
+                        adalah dari keluarga seniman dan menganggap dirinya untuk menjadi seorang seniman dan
+                        konstruktor) dan untuk banyak kemenangan ras mereka.
                     </p>
                     <ul>
-                        <li><i class="ion-android-checkbox-outline"></i>Grunt - No need to update plugins manually</li>
-                        <li><i class="ion-android-checkbox-outline"></i>Grunt - Less work you have to performance</li>
-                        <li><i class="ion-android-checkbox-outline"></i>Sass - Most Powerful CSS extension language</li>
+                        <li><i class="ion-android-checkbox-outline"></i> Sports car (S)</li>
+                        <li><i class="ion-android-checkbox-outline"></i> 8.0 L (488 cu in) quad-turbocharged WR16</li>
+                        <li><i class="ion-android-checkbox-outline"></i>1,103 kW (1,479 hp; 1,500 PS) (Chiron, Chiron
+                            Sport, Chiron Pur Sport, Chiron Noire)</li>
                     </ul>
                     <!-- <button class="btn btn-primary btn-action btn-fill">Learn More</button> -->
                 </div>
@@ -151,7 +155,14 @@
                                     <li>-</li>
 
                                 </ul>
-                                <button class="btn btn-primary btn-action btn-fill">Buy Now</button>
+                                <button class="btn btn-primary btn-action btn-fill disabled">Buy Now</button>
+                                <style>
+                                button.disabled {
+                                    text-decoration: line-through;
+                                    opacity: 0.5;
+                                    cursor: not-allowed;
+                                }
+                                </style>
                             </div>
                         </div>
                     </div>
@@ -179,7 +190,7 @@
                                     <li>Ferrari 488 GTB, Lamborghini Huracan</li>
                                     <li>Porsche Taycan, Bugatti, Mercedes-AMG GT</li>
                                 </ul>
-                                <button class="btn btn-primary btn-action btn-fill">Buy Now</button>
+                                <button class="btn btn-primary btn-action btn-fill disabled">Buy Now</button>
                             </div>
                         </div>
                     </div>

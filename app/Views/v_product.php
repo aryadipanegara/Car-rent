@@ -31,7 +31,7 @@
                                     <?= $row['jenis_nama']; ?>
                                 </p>
                                 <ul>
-                                    <li>First basic feature </li>
+                                    <li></li>
                                 </ul>
                                 <a href="<?= base_url('product/detail/' . $row['mobil_id']) ?>"
                                     class="btn btn-primary btn-action btn-fill">Order</a>
@@ -45,15 +45,15 @@
     </div>
 </div>
 <?php if (session()->getFlashdata('loginSuccess')): ?>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script>
-        Swal.fire({
-            position: 'top-center',
-            icon: 'success',
-            title: 'Log-in Success',
-            showConfirmButton: false,
-            timer: 1500
-        });
-    </script>
-    <?php endif; ?>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+Swal.fire({
+    position: 'top-center',
+    icon: 'success',
+    title: 'Log-in Success',
+    showConfirmButton: false,
+    timer: 1500
+});
+</script>
+<?php endif; ?>
 <?= $this->endSection('')  ?>

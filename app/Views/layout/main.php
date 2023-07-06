@@ -38,7 +38,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light navbar-default navbar-fixed-top" role="navigation">
                 <div class="container">
-                    <a class="navbar-brand page-scroll" href="#main"><img
+                    <a class="navbar-brand page-scroll" href="/"><img
                             src="<?= base_url() ?>/assets/logos/rentallogo.png" alt="adminity Logo" height="65px"
                             width="65px"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
